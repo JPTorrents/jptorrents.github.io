@@ -1,0 +1,22 @@
+- category: Life skills
+  skills:
+  - name: Learning tech stuff
+    rating: Professional life on the line here 
+    symbol: C= C= C= C= C=┌(;・ω・)┘
+  - name: Activie lisening
+    rating: Compunded interests since being a kid 
+    symbol: ᕙ(＠°▽°＠)ᕗ
+  - name: Funny
+    rating: Adaptative coping mechanism
+    symbol: ⸜(*ˊᗜˋ*)⸝
+
+- category: Languages
+  skills:
+  - name: French
+    rating: adopted mother tongue
+  - name: Spanish
+    rating: intuitive as a savy unschooled native
+  - name: Catalan
+    rating: half-forgotten mother tongue
+  - name: Enlgish
+    rating: academic ambitions

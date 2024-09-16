@@ -15,8 +15,6 @@ gem "github-pages", group: :jekyll_plugins
 # command to install and update all necessary gems:
 # bundle install
 
-
-
 # Plugins:
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.6"

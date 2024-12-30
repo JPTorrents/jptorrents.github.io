@@ -1,21 +1,15 @@
-# Welcome to Jekyll!
-#
 # Settings for the whole blog and values rarely edited afterwards (unlike Jekyll's data files feature) 
 # For technical reasons, this file is *NOT* reloaded automatically when 'bundle exec jekyll serve'. Change this file >> restart the server process.
 
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-
 title: JPTorrents’s hub
-email: joelibus+jptorrentsgithub@hotmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-Welcome to Joel Perez-Torrents’ personal website, a hub for exploring my research endeavors. 
-You’ll find information on my research projects and articles, insights and materials from my teachings, and briefs of my Substack posts.
-This site is designed for professionals, students, researchers, and anyone interested in Human-AI collaboration, or the use of Artificial Intelligence, with ethnographic approaches in the contexte of the healthcare system, and pragmatist theorical lenses to look at it.
-Discover more about my work and connect with me for collaboration and discussion.
+email: jpereztorrents+github@gmail.com
+description: 
+
+  Welcome to Joel Perez-Torrents’ personal website, a hub for exploring my research endeavors. 
+  You’ll find information on my research projects and articles, insights and materials from my teachings, and briefs of my Substack posts.
+  This site is designed for professionals, students, researchers, and anyone interested in 
+  Human-AI collaboration, or the use of Artificial Intelligence, with ethnographic approaches in the contexte of the healthcare system, and pragmatist theorical lenses to look at it.
+  Discover more about my work and connect with me for collaboration and discussion.
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://jptorrents.github.io"
@@ -27,14 +21,39 @@ theme: null
 plugins:
   - jekyll-feed
 
+sass:
+  style: compressed
+  sass_dir: _sass
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+#exclude:
+#- Gemfile
+#- Gemfile.lock
+#- node_modules
+#- vendor/bundle/
+#- vendor/cache/
+#- vendor/gems/
+#- vendor/ruby/
+#- assets
+
+include: [_pages]
+
+defaults:
+  -
+    scope:
+      type: posts
+      path: _posts
+    values:
+      is_post: true
+      layout: post
+      permalink: /blog/:categories/:title/
+  -
+    scope:
+      type: pages
+      path: _pages
+    values:
+      is_post: false
+      layout: default
+

@@ -1,0 +1,23 @@
+.nav-links {
+    list-style-type: none;  /* Remove default list styling */
+    padding: 0;             /* Remove default padding */
+    margin: 0;              /* Remove default margin */
+    display: flex;          /* Use flexbox to arrange items horizontally */
+    justify-content: space-between; /* Space items evenly */
+}
+
+.nav-links li {
+    position: relative;     /* To position the vertical line */
+    padding: 5px 10px;       /* Horizontal padding for links */
+}
+
+.nav-links li a {
+    text-decoration: none;   /* Remove underline from links */
+    color: #000;            /* Change the text color */
+  
+}
+
+.nav-links li a.active-page {
+    font-weight: bold;      /* Highlight active page */
+    color: #007BFF;        /* Change color for active page */
+}

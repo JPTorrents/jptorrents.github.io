@@ -1,9 +1,9 @@
 ---
+layout: default
 title: About
+permalink: /about/
 description:
 keywords:
-
-permalink: /about/
 ---
 
 {% for item in site.data.skills %}

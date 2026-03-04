@@ -1,62 +1,44 @@
 ---
 layout: default
-title: Home
+title: About
 permalink: /
-description: Academic home page of Joel Perez-Torrents, including research themes and contact details.
+description: About Joël Perez-Torrents: research program, key concepts, methods, and domains.
 keywords:
-  - academic website
+  - about
   - human-ai collaboration
   - digital health
+  - organization studies
+person_schema: true
 ---
 
-# Joel Perez-Torrents
+# About
 
-Researcher focused on Human-AI collaboration, digital health practices, and qualitative methods in technology studies.
+## Research program
 
-## Position
+My research program examines how artificial intelligence is integrated into professional judgment and collective coordination in healthcare organizations. I connect organization studies, sociology of technology, and management research to analyze how clinicians, managers, and technical teams negotiate responsibility around AI-supported decisions. Current collaborations include work linked to McGill University, the Centre de Recherche en Gestion (CRG), and interdisciplinary digital health networks in Canada and France.
 
-I work on interdisciplinary projects combining AI systems analysis, ethnographic methods, and pragmatist perspectives to study decision-making in healthcare settings.
+## Key concepts
 
-## Research agenda
+I focus on conceptual tools that make Human-AI work analyzable across institutions and domains:
 
-<section class="card">
-  <h3>Human-AI collaboration in professional environments</h3>
-  <p>I examine how practitioners integrate AI recommendations into situated decisions, with a focus on trust calibration, accountability, and collaborative interpretation.</p>
-  <ul class="tags">
-    <li><span>Human-AI collaboration</span></li>
-    <li><span>Professional practice</span></li>
-    <li><span>Decision support</span></li>
-  </ul>
-</section>
+- Human-AI collaboration and distributed agency
+- Organizational knowing and epistemic infrastructures
+- Accountability, trust calibration, and decision quality
+- Sociomaterial practice, professional discretion, and coordination work
 
-<section class="card">
-  <h3>AI adoption in healthcare organizations</h3>
-  <p>I study implementation trajectories across teams and institutions, including governance constraints, inter-professional negotiation, and safety practices.</p>
-  <ul class="tags">
-    <li><span>Healthcare AI</span></li>
-    <li><span>Organizations</span></li>
-    <li><span>Implementation</span></li>
-  </ul>
-</section>
+These concepts help compare settings such as cancer care pathways, radiology units, and remote patient monitoring programs while keeping attention on practical consequences for patients and care teams.
 
-<section class="card">
-  <h3>Ethnographic and qualitative methods for socio-technical systems</h3>
-  <p>I develop qualitative evaluation protocols that complement benchmark metrics with observations of real-world workflows and institutional contexts.</p>
-  <ul class="tags">
-    <li><span>Ethnography</span></li>
-    <li><span>Qualitative methods</span></li>
-    <li><span>Socio-technical analysis</span></li>
-  </ul>
-</section>
+## Methods
 
-<div class="callout">
-  <p class="meta">Current emphasis: clinical decision support, accountability practices, and field-based AI evaluation.</p>
-</div>
+My methods combine qualitative and mixed-method designs to capture both situated practices and institutional dynamics. I use ethnographic observation, semi-structured interviews, document analysis, and comparative case studies, sometimes alongside quantitative approaches such as structural equation modeling. This plural methodological strategy supports theory-building and evaluation of AI implementation beyond benchmark performance.
 
-## Contact
+## Domains
 
-<ul class="meta">
-  <li>Email: <a href="mailto:jpereztorrents+github@gmail.com">jpereztorrents+github@gmail.com</a></li>
-  <li>GitHub: <a href="https://github.com/JPTorrents">github.com/JPTorrents</a></li>
-  <li>Writing: <a href="https://jptorrents.substack.com">jptorrents.substack.com</a></li>
-</ul>
+My empirical domains concentrate on high-stakes and coordination-intensive contexts:
+
+- Digital health and clinical decision support
+- Oncology care coordination and nurse navigation
+- Radiology and AI-assisted diagnostic interpretation
+- Public and private healthcare organizations adopting machine learning tools
+
+Across these domains, I study how AI systems alter workflows, expertise boundaries, and governance mechanisms in real operational environments.

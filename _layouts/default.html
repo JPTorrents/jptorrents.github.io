@@ -24,6 +24,7 @@
 
     {% include scholar_citation_meta.html %}
     {% include jsonld.html %}
+    {% include person_schema.html %}
     <link rel="stylesheet" href="{{ '/assets/styles/main.css' | relative_url }}" />
   </head>
   <body>
@@ -33,11 +34,11 @@
         <p class="site-title"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></p>
         <nav aria-label="Main navigation">
           <ul class="nav-links">
-          <li><a href="{{ '/' | relative_url }}" {% if page.permalink == '/' %}aria-current="page"{% endif %}>Home</a></li>
-          <li><a href="{{ '/research/' | relative_url }}" {% if page.url == '/research/' %}aria-current="page"{% endif %}>Research</a></li>
+          <li><a href="{{ '/' | relative_url }}" {% if page.permalink == '/' %}aria-current="page"{% endif %}>About</a></li>
           <li><a href="{{ '/publications/' | relative_url }}" {% if page.url == '/publications/' or page.collection == 'publications' %}aria-current="page"{% endif %}>Publications</a></li>
-          <li><a href="{{ '/cv/' | relative_url }}" {% if page.url == '/cv/' %}aria-current="page"{% endif %}>CV</a></li>
-          <li><a href="{{ '/about/' | relative_url }}" {% if page.url == '/about/' %}aria-current="page"{% endif %}>About</a></li>
+          <li><a href="{{ '/cv/' | relative_url }}" {% if page.url == '/cv/' %}aria-current="page"{% endif %}><em>Vita</em></a></li>
+          <li><a href="{{ '/talks/' | relative_url }}" {% if page.url == '/talks/' %}aria-current="page"{% endif %}>Talks</a></li>
+          <li><a href="{{ '/essays/' | relative_url }}" {% if page.url == '/essays/' %}aria-current="page"{% endif %}>Essays</a></li>
           </ul>
         </nav>
       </div>

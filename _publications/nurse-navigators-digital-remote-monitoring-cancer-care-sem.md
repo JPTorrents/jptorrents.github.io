@@ -26,6 +26,18 @@ keywords:
   - "Nurse navigators"
   - "Structural equation modeling"
   - "Digital health"
+references:
+  - authors: ["Venkatesh, V.", "Morris, M. G.", "Davis, G. B.", "Davis, F. D."]
+    year: 2003
+    title: "User acceptance of information technology: Toward a unified view"
+    venue: "MIS Quarterly"
+    doi: "10.2307/30036540"
+  - authors: ["Hair, J. F.", "Black, W. C.", "Babin, B. J.", "Anderson, R. E."]
+    year: 2010
+    title: "Multivariate Data Analysis"
+    venue: "Prentice Hall"
+    url: "https://www.pearson.com/en-us/subject-catalog/p/multivariate-data-analysis/P200000003127"
+
 methods: "Case study + structural equation modeling."
 data: ""
 ---

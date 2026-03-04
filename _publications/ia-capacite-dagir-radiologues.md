@@ -17,6 +17,12 @@ keywords:
   - "Professional judgment"
   - "Capacity to act"
   - "Healthcare"
+cited_by:
+  - authors: ["Perez-Torrents, J."]
+    year: 2024
+    title: "Gérer la collaboration entre l’expert métier et l’Intelligence Artificielle : Deux études de cas dans le système de soins"
+    venue: "Thèse de doctorat, Institut Polytechnique de Paris"
+    url: "https://jptorrents.github.io/publications/gerer-la-collaboration-expert-metier-ia-these/"
 methods: ""
 data: ""
 ---

@@ -27,21 +27,26 @@
   <body>
     <a class="skip-link" href="#main-content">Skip to content</a>
     <header class="site-header">
-      <nav aria-label="Main navigation">
-        <ul class="nav-links">
+      <div class="container">
+        <p class="site-title"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></p>
+        <nav aria-label="Main navigation">
+          <ul class="nav-links">
           <li><a href="{{ '/' | relative_url }}" {% if page.permalink == '/' %}aria-current="page"{% endif %}>Home</a></li>
           <li><a href="{{ '/research/' | relative_url }}" {% if page.url == '/research/' %}aria-current="page"{% endif %}>Research</a></li>
           <li><a href="{{ '/publications/' | relative_url }}" {% if page.url == '/publications/' or page.collection == 'publications' %}aria-current="page"{% endif %}>Publications</a></li>
           <li><a href="{{ '/cv/' | relative_url }}" {% if page.url == '/cv/' %}aria-current="page"{% endif %}>CV</a></li>
           <li><a href="{{ '/about/' | relative_url }}" {% if page.url == '/about/' %}aria-current="page"{% endif %}>About</a></li>
-        </ul>
-      </nav>
+          </ul>
+        </nav>
+      </div>
     </header>
-    <main id="main-content" class="page-content">
+    <main id="main-content" class="container">
       {{ content }}
     </main>
     <footer class="site-footer">
-      <p>© {{ 'now' | date: '%Y' }} {{ site.author.name }}.</p>
+      <div class="container">
+        <p>© {{ 'now' | date: '%Y' }} {{ site.author.name }}.</p>
+      </div>
     </footer>
   </body>
 </html>

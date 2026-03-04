@@ -14,15 +14,31 @@ Below is a structured list of publications using a stable schema for easy readin
 
 {% assign publications = site.data.publications | sort: 'year' | reverse %}
 {% for pub in publications %}
-<article class="publication-block">
+<article class="pub">
   <h2><a href="{{ '/publications/' | append: pub.slug | append: '/' | relative_url }}">{{ pub.title }}</a></h2>
-  <p><strong>Authors:</strong> {{ pub.authors | join: ', ' }}</p>
-  <p><strong>Year:</strong> {{ pub.year }}</p>
-  <p><strong>Venue:</strong> {{ pub.venue }}</p>
-  <p><strong>DOI:</strong> {% if pub.doi %}<a href="https://doi.org/{{ pub.doi }}">{{ pub.doi }}</a>{% else %}N/A{% endif %}</p>
-  <p><strong>Abstract:</strong> {{ pub.abstract }}</p>
-  <p><strong>Keywords:</strong> {{ pub.keywords | join: ', ' }}</p>
-  <p><strong>Methods:</strong> {{ pub.methods }}</p>
-  <p><strong>Data:</strong> {{ pub.data }}</p>
+  <p class="meta">Publication entry</p>
+  <dl class="meta-list">
+    <dt>Authors</dt>
+    <dd>{{ pub.authors | join: ', ' }}</dd>
+    <dt>Year</dt>
+    <dd>{{ pub.year }}</dd>
+    <dt>Venue</dt>
+    <dd>{{ pub.venue }}</dd>
+    <dt>DOI</dt>
+    <dd>{% if pub.doi %}<a href="https://doi.org/{{ pub.doi }}">https://doi.org/{{ pub.doi }}</a>{% else %}N/A{% endif %}</dd>
+    <dt>URL</dt>
+    <dd><a href="{{ '/publications/' | append: pub.slug | append: '/' | relative_url }}">{{ '/publications/' | append: pub.slug | append: '/' | absolute_url }}</a></dd>
+    <dt>Abstract</dt>
+    <dd>{{ pub.abstract }}</dd>
+    <dt>Methods</dt>
+    <dd>{{ pub.methods }}</dd>
+    <dt>Data</dt>
+    <dd>{{ pub.data }}</dd>
+  </dl>
+  <ul class="tags">
+    {% for keyword in pub.keywords %}
+      <li><span>{{ keyword }}</span></li>
+    {% endfor %}
+  </ul>
 </article>
 {% endfor %}

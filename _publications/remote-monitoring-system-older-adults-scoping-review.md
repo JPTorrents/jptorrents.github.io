@@ -20,6 +20,18 @@ keywords:
   - "Scoping review"
   - "Digital health"
   - "Care coordination"
+references:
+  - authors: ["Arksey, H.", "O'Malley, L."]
+    year: 2005
+    title: "Scoping studies: towards a methodological framework"
+    venue: "International Journal of Social Research Methodology"
+    doi: "10.1080/1364557032000119616"
+  - authors: ["Tricco, A. C.", "Lillie, E.", "Zarin, W.", "et al."]
+    year: 2018
+    title: "PRISMA Extension for Scoping Reviews (PRISMA-ScR): Checklist and Explanation"
+    venue: "Annals of Internal Medicine"
+    doi: "10.7326/M18-0850"
+
 methods: "Scoping review."
 data: ""
 ---

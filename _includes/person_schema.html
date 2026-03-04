@@ -1,0 +1,32 @@
+{% if page.person_schema %}
+{% assign canonical_url = page.url | replace:'index.html','' | absolute_url %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Joël Perez-Torrents",
+  "url": {{ canonical_url | jsonify }},
+  "sameAs": [
+    "https://orcid.org/0009-0008-5860-1948",
+    "https://scholar.google.com/citations?user=a-3uzfgAAAAJ&hl=en",
+    "https://github.com/JPTorrents",
+    "https://jptorrents.substack.com"
+  ],
+  "affiliation": [
+    {
+      "@type": "Organization",
+      "name": "Desautels Faculty of Management, McGill University",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Montréal",
+        "addressCountry": "CA"
+      }
+    },
+    {
+      "@type": "Organization",
+      "name": "Centre de Recherche en Gestion (CRG), i3-CNRS / Institut Polytechnique de Paris"
+    }
+  ]
+}
+</script>
+{% endif %}

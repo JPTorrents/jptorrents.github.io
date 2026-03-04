@@ -15,7 +15,8 @@ Site académique statique basé sur **Jekyll** et compatible **GitHub Pages**.
 ## Éditer le contenu
 
 ### Pages principales
-Modifier les fichiers Markdown dans `_pages/`.
+- Modifier `index.md` pour la page d'accueil (`/`).
+- Modifier les autres pages dans `_pages/` (`/publications/`, `/cv/`, `/talks/`, `/essays/`, etc.).
 
 ### Publications
 1. Ajouter/éditer une entrée dans `_data/publications.yml` avec le schéma stable:

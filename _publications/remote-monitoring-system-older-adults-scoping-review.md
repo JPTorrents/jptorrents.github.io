@@ -101,7 +101,7 @@ references:
     title: "Telemedicine and remote management of patients with heart failure"
     venue: "Lancet"
     doi: "10.1016/S0140-6736(11)61229-4"
-  - authors:["Mínguez Clemente P", "Pascual-Carrasco M", "Mata Hernández C", "Malo de Molina R", "Arvelo LA", "Cadavid B", "et al"]
+  - authors: ["Minguez Clemente P", "Pascual-Carrasco M", "Mata Hernandez C", "Malo de Molina R", "Arvelo LA", "Cadavid B", "et al"]
     year: 2020
     title: "Follow-up with Telemedicine in Early Discharge for COPD Exacerbations: Randomized Clinical Trial"
     venue: "COPD: Journal of Chronic Obstructive Pulmonary Disease"
@@ -161,7 +161,7 @@ references:
     title: "Outcomes of a telehealth intervention for homebound older adults with heart or chronic respiratory failure: a randomized controlled trial"
     venue: "Gerontologist"
     doi: null
-  - authors:["Takahashi PY", "Pecina JL", "Upatising B", "Chaudhry R", "Shah ND", "Van Houten H", "et al"]
+  - authors: ["Takahashi PY", "Pecina JL", "Upatising B", "Chaudhry R", "Shah ND", "Van Houten H", "et al"]
     year: 2012
     title: "A randomized controlled trial of telemonitoring in older adults with multiple health issues to prevent hospitalizations and emergency department visits"
     venue: "Arch Intern Med"
@@ -181,7 +181,7 @@ references:
     title: "Effects of home telemonitoring on transitions between frailty states and death for older adults: a randomized controlled trial"
     venue: "Int J Gen Med"
     doi: null
-  - authors:["Martín-Lesende I", "Orruño E", "Bilbao A", "Vergara I", "Cairo MC", "Bayón JC", "et al"]
+  - authors: ["Martín-Lesende I", "Orruño E", "Bilbao A", "Vergara I", "Cairo MC", "Bayón JC", "et al"]
     year: 2013
     title: "Impact of telemonitoring home care patients with heart failure or chronic lung disease from primary care on healthcare resource use (the TELBIL study randomised controlled trial)"
     venue: "BMC Health Serv Res"
@@ -198,7 +198,7 @@ references:
     doi: null
   - authors: ["Zulfiqar AA", "Vaudelle O", "Hajjam M", "Geny B", "Talha S", "Letourneau D", "et al"]
     year: 2020
-    title: "Results of the "ger-e-tec" experiment involving the use of an automated platform to detect the exacerbation of geriatric syndromes"
+    title: "Results of the ger-e-tec experiment involving the use of an automated platform to detect the exacerbation of geriatric syndromes"
     venue: "J Clin Med"
     doi: null
   - authors: ["de Batlle J", "Massip M", "Vargiu E", "Nadal N", "Fuentes A", "Bravo MO", "et al"]

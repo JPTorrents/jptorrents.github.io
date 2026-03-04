@@ -1,0 +1,41 @@
+---
+layout: default
+---
+{% assign pub = site.data.publications | where: 'slug', page.slug | first %}
+<article class="publication-page">
+  <header>
+    <h1>{{ pub.title | default: page.title }}</h1>
+    <p><strong>Authors:</strong> {{ pub.authors | join: ', ' }}</p>
+    <p><strong>Year:</strong> {{ pub.year }} · <strong>Venue:</strong> {{ pub.venue }}</p>
+    <p>
+      <strong>DOI/URL:</strong>
+      {% if pub.doi %}
+        <a href="https://doi.org/{{ pub.doi }}">https://doi.org/{{ pub.doi }}</a>
+      {% elsif pub.url %}
+        <a href="{{ pub.url }}">{{ pub.url }}</a>
+      {% else %}
+        Not available
+      {% endif %}
+    </p>
+  </header>
+
+  <section>
+    <h2>Abstract</h2>
+    <p>{{ pub.abstract | default: "Not available." }}</p>
+  </section>
+
+  <section>
+    <h2>Keywords</h2>
+    <p>{% if pub.keywords %}{{ pub.keywords | join: ', ' }}{% else %}Not available.{% endif %}</p>
+  </section>
+
+  <section>
+    <h2>Methods</h2>
+    <p>{{ pub.methods | default: "Not available." }}</p>
+  </section>
+
+  <section>
+    <h2>Data</h2>
+    <p>{{ pub.data | default: "Not available." }}</p>
+  </section>
+</article>

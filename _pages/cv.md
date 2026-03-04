@@ -30,4 +30,4 @@ His research centers on interdisciplinary studies of AI adoption in healthcare o
 
 Download PDF: <a href="{{ '/assets/cv/CV_JoelPerezTorrents_FR_2025_12.pdf' | relative_url }}">CV_JoelPerezTorrents_FR_2025_12.pdf</a>
 
-Contact: <a href="mailto:jpereztorrents+github@gmail.com">jpereztorrents+github@gmail.com</a>
+Contact: jpereztorrents+github (at) gmail.com

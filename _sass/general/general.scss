@@ -4,7 +4,6 @@
   --fg-0: #F4F5F7;
   --fg-1: #C6CBD4;
   --accent: #8197B2;
-  --pattern: url("/assets/patterns/epistemic-lattice.svg"); /* Switch to topo-flow.svg to change background motif */
   --border: #381F2F;
   --surface: #422F4E;
   --surface-2: #54476D;
@@ -27,13 +26,7 @@
 
 body {
   margin: 0;
-  background-color: var(--bg-0);
-  background-image:
-    linear-gradient(135deg, rgba(32, 12, 28, 0.92), rgba(30, 17, 66, 0.92)),
-    var(--pattern);
-  background-size: cover, 240px 240px;
-  background-repeat: no-repeat, repeat;
-  background-attachment: fixed, fixed;
+  background: linear-gradient(180deg, var(--bg-1) 0%, var(--bg-0) 100%);
   color: var(--fg-0);
   font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
   font-size: var(--text-body);
@@ -48,9 +41,6 @@ body {
 
 main {
   padding-block: var(--space-3) var(--space-4);
-  background: rgba(30, 17, 66, 0.58);
-  border: 1px solid rgba(56, 31, 47, 0.7);
-  border-radius: 12px;
 }
 
 h1,

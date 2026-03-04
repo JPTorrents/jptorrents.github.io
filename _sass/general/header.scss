@@ -1,23 +1,25 @@
+.site-header {
+  border-bottom: 1px solid #ddd;
+  background: #f8f8f8;
+}
+
 .nav-links {
-    list-style-type: none;  /* Remove default list styling */
-    padding: 0;             /* Remove default padding */
-    margin: 0;              /* Remove default margin */
-    display: flex;          /* Use flexbox to arrange items horizontally */
-    justify-content: space-between; /* Space items evenly */
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 0;
+  padding: 0.8rem 1rem;
 }
 
-.nav-links li {
-    position: relative;     /* To position the vertical line */
-    padding: 5px 10px;       /* Horizontal padding for links */
+.nav-links a {
+  text-decoration: none;
+  color: #111;
+  padding: 0.35rem 0.5rem;
+  border-radius: 0.2rem;
 }
 
-.nav-links li a {
-    text-decoration: none;   /* Remove underline from links */
-    color: #000;            /* Change the text color */
-  
-}
-
-.nav-links li a.active-page {
-    font-weight: bold;      /* Highlight active page */
-    color: #007BFF;        /* Change color for active page */
+.nav-links a[aria-current="page"] {
+  background: #111;
+  color: #fff;
 }

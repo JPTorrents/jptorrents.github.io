@@ -1,21 +1,24 @@
-# Settings for the whole blog and values rarely edited afterwards (unlike Jekyll's data files feature) 
-# For technical reasons, this file is *NOT* reloaded automatically when 'bundle exec jekyll serve'. Change this file >> restart the server process.
-
-title: JPTorrents’s hub
+title: Joel Perez-Torrents
 email: jpereztorrents+github@gmail.com
-description: 
-
-  Welcome to Joel Perez-Torrents’ personal website, a hub for exploring my research endeavors. 
-  You’ll find information on my research projects and articles, insights and materials from my teachings, and briefs of my Substack posts.
-  This site is designed for professionals, students, researchers, and anyone interested in 
-  Human-AI collaboration, or the use of Artificial Intelligence, with ethnographic approaches in the contexte of the healthcare system, and pragmatist theorical lenses to look at it.
-  Discover more about my work and connect with me for collaboration and discussion.
-
-baseurl: "" # the subpath of your site, e.g. /blog
+description: >-
+  Personal academic website of Joel Perez-Torrents: research themes,
+  publications, and academic profile.
+baseurl: ""
 url: "https://jptorrents.github.io"
-github_username:  JPTorrents
+github_username: JPTorrents
+lang: en
 
-# Build settings
+author:
+  name: Joel Perez-Torrents
+  given_name: Joel
+  family_name: Perez-Torrents
+  job_title: Researcher
+  affiliation: Independent / Academic Collaborations
+  email: jpereztorrents+github@gmail.com
+  same_as:
+    - https://github.com/JPTorrents
+    - https://jptorrents.substack.com
+
 markdown: kramdown
 theme: null
 plugins:
@@ -25,20 +28,13 @@ sass:
   style: compressed
   sass_dir: _sass
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-#exclude:
-#- Gemfile
-#- Gemfile.lock
-#- node_modules
-#- vendor/bundle/
-#- vendor/cache/
-#- vendor/gems/
-#- vendor/ruby/
-#- assets
+include:
+  - _pages
 
-include: [_pages]
+collections:
+  publications:
+    output: true
+    permalink: /publications/:name/
 
 defaults:
   -
@@ -56,4 +52,9 @@ defaults:
     values:
       is_post: false
       layout: default
-
+  -
+    scope:
+      type: publications
+      path: _publications
+    values:
+      layout: publication

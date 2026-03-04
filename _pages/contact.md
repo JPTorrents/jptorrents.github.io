@@ -1,18 +1,12 @@
 ---
+layout: default
 title: Contact
-description:
-keywords:
-
 permalink: /contact/
+description: Contact information.
+keywords:
+  - contact
 ---
 
-## Contact
+# Contact
 
-Get in touch!
-
-<form>
-  <!-- Form stuff -->
-</form>
-
-- [Back to the hub](/index)
-- [Or get to know me better](/about/)
+You can reach me at [jpereztorrents+github@gmail.com](mailto:jpereztorrents+github@gmail.com).

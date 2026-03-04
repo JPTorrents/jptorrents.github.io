@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240">
+  <defs>
+    <style>
+      .c { stroke:#9EC8FF; stroke-opacity:.055; stroke-width:1.4; fill:none; vector-effect:non-scaling-stroke; }
+      .c2 { stroke:#9EC8FF; stroke-opacity:.040; stroke-width:1.0; fill:none; vector-effect:non-scaling-stroke; }
+    </style>
+
+    <pattern id="tile" patternUnits="userSpaceOnUse" width="240" height="240">
+      <rect width="240" height="240" fill="none"/>
+
+      <!-- contour lines -->
+      <g class="c">
+        <path d="M-20 40 C40 10, 80 10, 140 40 S240 70, 260 40"/>
+        <path d="M-20 90 C40 60, 80 60, 140 90 S240 120, 260 90"/>
+        <path d="M-20 140 C40 110, 80 110, 140 140 S240 170, 260 140"/>
+        <path d="M-20 190 C40 160, 80 160, 140 190 S240 220, 260 190"/>
+      </g>
+
+      <!-- secondary micro-contours -->
+      <g class="c2">
+        <path d="M-20 65 C35 45, 90 45, 145 65 S245 85, 260 65"/>
+        <path d="M-20 115 C35 95, 90 95, 145 115 S245 135, 260 115"/>
+        <path d="M-20 165 C35 145, 90 145, 145 165 S245 185, 260 165"/>
+      </g>
+    </pattern>
+  </defs>
+
+  <rect width="100%" height="100%" fill="url(#tile)"/>
+</svg>

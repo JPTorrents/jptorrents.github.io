@@ -10,17 +10,28 @@ keywords:
 
 # CV
 
-## Short profile
+<section>
+  <h2>Short profile</h2>
+  <p>Joel Perez-Torrents is a researcher working on the interactions between AI systems and professional practices, especially in healthcare and organizational contexts.</p>
+  <p class="meta">Interdisciplinary focus: sociology of technology, qualitative inquiry, and AI implementation studies.</p>
+</section>
 
-Joel Perez-Torrents is a researcher working on the interactions between AI systems and professional practices, especially in healthcare and organizational contexts.
+<hr />
 
-## Focus areas
+<section>
+  <h2>Focus areas</h2>
+  <ul>
+    <li>Human-AI collaboration</li>
+    <li>Healthcare AI implementation</li>
+    <li>Ethnographic and qualitative methods</li>
+  </ul>
+  <p class="meta">Methods include multi-site fieldwork, interviews, and thematic analysis.</p>
+</section>
 
-- Human-AI collaboration
-- Healthcare AI implementation
-- Ethnographic and qualitative methods
+<hr />
 
-## CV access
-
-- Download PDF: _Add your CV PDF in `assets/docs/cv.pdf` and update this link._
-- Contact for full dossier: [jpereztorrents+github@gmail.com](mailto:jpereztorrents+github@gmail.com)
+<section>
+  <h2>CV access</h2>
+  <p>Download PDF: <a href="{{ '/assets/cv/CV_JoelPerezTorrents_FR_2025_12.pdf' | relative_url }}">CV_JoelPerezTorrents_FR_2025_12.pdf</a></p>
+  <p class="meta">Contact for full dossier: <a href="mailto:jpereztorrents+github@gmail.com">jpereztorrents+github@gmail.com</a></p>
+</section>

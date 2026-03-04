@@ -7,7 +7,7 @@ layout: default
     <p><strong>Authors:</strong> {{ page.authors | join: ', ' }}</p>
     <p><strong>Year:</strong> {{ page.year }} · <strong>Venue:</strong> {{ page.venue }}</p>
     {% if page.doi %}<p><strong>DOI:</strong> <a href="https://doi.org/{{ page.doi }}">{{ page.doi }}</a></p>{% endif %}
-    {% if page.url_external %}<p><strong>URL:</strong> <a href="{{ page.url_external }}">{{ page.url_external }}</a></p>{% endif %}
+    {% if page.external_url %}<p><strong>URL:</strong> <a href="{{ page.external_url }}">{{ page.external_url }}</a></p>{% endif %}
   </header>
 
   <section>

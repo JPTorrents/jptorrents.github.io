@@ -6,7 +6,7 @@ authors:
   - "Joël Perez-Torrents"
 venue: "Thèse de doctorat, Institut Polytechnique de Paris"
 doi: ""
-url: ""
+external_url: ""
 abstract: "Doctoral thesis on managing collaboration between domain experts and AI, grounded in two healthcare case studies."
 keywords:
   - "Human–AI collaboration"

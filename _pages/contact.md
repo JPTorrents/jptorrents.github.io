@@ -9,4 +9,4 @@ keywords:
 
 # Contact
 
-You can reach me at [jpereztorrents+github@gmail.com](mailto:jpereztorrents+github@gmail.com).
+You can reach me at jpereztorrents+github (at) gmail.com

@@ -10,7 +10,7 @@ authors:
   - "et al."
 venue: "BMC Geriatrics"
 doi: "10.1186/s12877-025-06385-8"
-url: "https://doi.org/10.1186/s12877-025-06385-8"
+external_url: "https://doi.org/10.1186/s12877-025-06385-8"
 abstract: "Scoping review mapping remote monitoring systems for older adults at risk of complications, synthesizing design choices, targeted outcomes, and implementation characteristics across studies."
 keywords:
   - "Remote monitoring"

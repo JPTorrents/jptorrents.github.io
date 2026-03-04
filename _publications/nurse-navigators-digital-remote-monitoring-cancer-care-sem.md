@@ -16,7 +16,7 @@ authors:
   - "F. Scotté"
 venue: "Journal of Medical Internet Research"
 doi: "10.2196/66275"
-url: "https://doi.org/10.2196/66275"
+external_url: "https://doi.org/10.2196/66275"
 abstract: "Case study analyzing digital remote monitoring in cancer care and the role of nurse navigators; uses structural equation modeling to estimate relationships among program features and outcomes."
 keywords:
   - "Remote monitoring"

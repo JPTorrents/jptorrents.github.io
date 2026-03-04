@@ -7,7 +7,7 @@ authors:
   - "Étienne Minvielle"
 venue: "Journal de gestion et d'économie de la santé"
 doi: "10.54695/jdds.041.3.0185"
-url: "https://doi.org/10.54695/jdds.041.3.0185"
+external_url: "https://doi.org/10.54695/jdds.041.3.0185"
 abstract: ""
 keywords:
   - "Radiology"

@@ -1,44 +1,44 @@
 # jptorrents.github.io
 
-Site académique statique basé sur **Jekyll** et compatible **GitHub Pages**.
+Static academic website built with Jekyll and compatible with GitHub Pages.
 
 ## Structure
 
-- `_pages/` : pages principales (`/`, `/publications/`, `/cv/`, `/talks/`, `/essays/`, `/posts/`, `/contact/`).
-- `_data/publications.yml` : source de données des publications.
-- `_publications/` : pages individuelles de publication (collection Jekyll).
+- `_pages/` : main pages (`/`, `/publications/`, `/cv/`, `/talks/`, `/essays/`, `/posts/`, `/contact/`).
+- `_data/publications.yml` : sdata source for publications
+- `_publications/` : individual publication pages (Jekyll collection)
 - `_layouts/` : templates (`default`, `publication`, `post`).
-- `_sass/` et `assets/styles/` : styles.
-- `docs/DIAGNOSTIC.md` : diagnostic initial et écarts identifiés.
+- `_sass/` and `assets/styles/` : styles.
+- `docs/DIAGNOSTIC.md` : initial diagnostic and identified issues
+  
+## Editing content
 
-## Éditer le contenu
-
-### Pages principales
-Modifier les fichiers Markdown dans `_pages/`.
+### Main pages 
+Edit the Markdown files in `_pages/`.
 
 ### Publications
-1. Ajouter/éditer une entrée dans `_data/publications.yml` avec le schéma stable:
+1. Add or edit an entry in `_data/publications.yml` using the stable schema:
    - `title`, `authors`, `year`, `venue`, `doi`, `abstract`, `keywords`, `methods`, `data`, `slug`
-2. Ajouter une page correspondante dans `_publications/<slug>.md` avec les mêmes métadonnées front matter.
+2. Add a corresponding page in: `_publications/<slug>.md` with the same metadata in the front matter.
 
 ## Build local
 
-Prérequis: Ruby + Bundler.
+Prerequisites: Ruby + Bundler.
 
 ```bash
 bundle install
 bundle exec jekyll serve
 ```
 
-Build de vérification:
+Verification build:
 
 ```bash
 bundle exec jekyll build
 ```
 
-Le site généré est dans `_site/`.
+The generated site is located in `_site/`.
 
-## Déploiement GitHub Pages
+## GitHub Pages deployment
 
-Le dépôt est conçu pour le pipeline natif GitHub Pages (gem `github-pages`).
-Pousser sur la branche par défaut déclenche la génération statique côté GitHub.
+The repository is configured for the native GitHub Pages pipeline (gem `github-pages`).
+Pushing to the default branch automatically triggers static site generation on GitHub.

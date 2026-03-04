@@ -1,0 +1,34 @@
+- slug: ai-clinical-collaboration-2024
+  title: "Human-AI Collaboration in Clinical Decision Support"
+  authors:
+    - Joel Perez-Torrents
+    - Alex Martin
+  year: 2024
+  venue: "Journal of Digital Health Practices"
+  doi: "10.1234/jdhp.2024.001"
+  abstract: "This article studies collaborative routines between clinicians and AI-assisted decision support systems. Based on qualitative fieldwork, it identifies practical tensions around trust, interpretation, and accountability and proposes design implications for safer integration."
+  keywords:
+    - Human-AI collaboration
+    - Clinical decision support
+    - Qualitative research
+    - Healthcare AI
+    - Accountability
+  methods: "Multi-site ethnographic observation and semi-structured interviews."
+  data: "Anonymized field notes and coded interview excerpts available on request."
+
+- slug: ethnography-ai-evaluation-2023
+  title: "Ethnographic Methods for Evaluating AI in Healthcare Organizations"
+  authors:
+    - Joel Perez-Torrents
+  year: 2023
+  venue: "Proceedings of the International Conference on AI & Society"
+  doi: "10.1234/icais.2023.114"
+  abstract: "The paper introduces an ethnographic framework for evaluating AI systems in organizational settings. It complements model-centric metrics with situated analyses of workflow adaptation, professional judgment, and institutional constraints."
+  keywords:
+    - Ethnography
+    - AI evaluation
+    - Organizations
+    - Healthcare
+    - Workflow
+  methods: "Participant observation, interview protocol, and thematic analysis."
+  data: "Synthetic examples and methodological toolkit provided in supplementary materials."

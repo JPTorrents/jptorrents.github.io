@@ -1,0 +1,3 @@
+{% assign citation = include.item %}
+{% assign authors = citation.authors | join: ', ' %}
+{% if authors != '' %}{{ authors }}{% endif %}{% if citation.year %} ({{ citation.year }}){% endif %}.{% if citation.title %} {{ citation.title }}.{% endif %}{% if citation.venue %} <em>{{ citation.venue }}</em>.{% endif %}{% if citation.doi or citation.url %} {% endif %}{% if citation.doi %}<a href="https://doi.org/{{ citation.doi }}">{{ citation.doi }}</a>{% endif %}{% if citation.doi and citation.url %} | {% endif %}{% if citation.url %}<a href="{{ citation.url }}">{{ citation.url }}</a>{% endif %}

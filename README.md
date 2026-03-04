@@ -4,7 +4,8 @@ Site académique statique basé sur **Jekyll** et compatible **GitHub Pages**.
 
 ## Structure
 
-- `_pages/` : pages principales (`/`, `/research/`, `/publications/`, `/cv/`, `/about/`).
+- `index.md` : page principale (`/`).
+- `_pages/` : pages principales additionnelles (`/publications/`, `/cv/`, `/talks/`, `/essays/`, `/contact/`, etc.).
 - `_data/publications.yml` : source de données des publications.
 - `_publications/` : pages individuelles de publication (collection Jekyll).
 - `_layouts/` : templates (`default`, `publication`, `post`).

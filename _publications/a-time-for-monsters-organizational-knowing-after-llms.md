@@ -1,6 +1,5 @@
 ---
 title: "A time for monsters: Organizational knowing after large language models"
-permalink: /publications/a-time-for-monsters-organizational-knowing-after-llms/
 year: 2025
 authors:
   - "Samer Faraj"

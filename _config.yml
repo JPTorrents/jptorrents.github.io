@@ -1,25 +1,23 @@
-title: Joël Perez-Torrents
-email: joel.perez-torrents@polytechnique.edu
+title: Joel Perez-Torrents
+email: jpereztorrents+github@gmail.com
 description: >-
-  Academic website of Joël Perez-Torrents: research themes, publications,
-  talks, and CV.
+  Personal academic website of Joel Perez-Torrents: research themes,
+  publications, and academic profile.
 baseurl: ""
 url: "https://jptorrents.github.io"
 github_username: JPTorrents
 lang: en
 
 author:
-  name: Joël Perez-Torrents
-  given_name: Joël
+  name: Joel Perez-Torrents
+  given_name: Joel
   family_name: Perez-Torrents
-  job_title: Postdoctoral Researcher
-  affiliation: Desautels Faculty of Management, McGill University
-  locality: Montréal, Canada
-  email: joel.perez-torrents@polytechnique.edu
+  job_title: Researcher
+  affiliation: Independent / Academic Collaborations
+  email: jpereztorrents+github@gmail.com
   same_as:
-    - https://orcid.org/0009-0008-5860-1948
-    - https://scholar.google.com/citations?user=a-3uzfgAAAAJ&hl=en
     - https://github.com/JPTorrents
+    - https://jptorrents.substack.com
 
 markdown: kramdown
 theme: null

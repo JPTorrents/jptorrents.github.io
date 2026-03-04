@@ -1,32 +1,29 @@
 - slug: ai-clinical-collaboration-2024
   title: "Human-AI Collaboration in Clinical Decision Support"
   authors:
-    - Joël Perez-Torrents
+    - Joel Perez-Torrents
     - Alex Martin
   year: 2024
   venue: "Journal of Digital Health Practices"
   doi: "10.1234/jdhp.2024.001"
-  url: "https://doi.org/10.1234/jdhp.2024.001"
-  scholar_url: "https://scholar.google.com/citations?user=a-3uzfgAAAAJ&hl=en"
-  abstract: "This article analyzes collaborative routines between clinicians and AI-assisted decision support systems, with a focus on trust, interpretation, and accountability in care settings."
+  abstract: "This article studies collaborative routines between clinicians and AI-assisted decision support systems. Based on qualitative fieldwork, it identifies practical tensions around trust, interpretation, and accountability and proposes design implications for safer integration."
   keywords:
     - Human-AI collaboration
     - Clinical decision support
-    - Healthcare AI
     - Qualitative research
+    - Healthcare AI
+    - Accountability
   methods: "Multi-site ethnographic observation and semi-structured interviews."
   data: "Anonymized field notes and coded interview excerpts available on request."
 
 - slug: ethnography-ai-evaluation-2023
   title: "Ethnographic Methods for Evaluating AI in Healthcare Organizations"
   authors:
-    - Joël Perez-Torrents
+    - Joel Perez-Torrents
   year: 2023
-  venue: "International Conference on AI & Society"
-  doi:
-  url: "https://scholar.google.com/citations?user=a-3uzfgAAAAJ&hl=en"
-  scholar_url: "https://scholar.google.com/citations?user=a-3uzfgAAAAJ&hl=en"
-  abstract: "The paper introduces an ethnographic framework to evaluate AI implementation in organizations, complementing model-centric metrics with situated analyses of workflow adaptation and professional judgment."
+  venue: "Proceedings of the International Conference on AI & Society"
+  doi: "10.1234/icais.2023.114"
+  abstract: "The paper introduces an ethnographic framework for evaluating AI systems in organizational settings. It complements model-centric metrics with situated analyses of workflow adaptation, professional judgment, and institutional constraints."
   keywords:
     - Ethnography
     - AI evaluation

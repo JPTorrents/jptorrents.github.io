@@ -2,25 +2,51 @@
 layout: default
 title: Home
 permalink: /
-description: Home page of Joël Perez-Torrents, Postdoctoral Researcher in organizational theory and information systems.
+description: Academic home page of Joel Perez-Torrents, including research themes and contact details.
 keywords:
-  - Joël Perez-Torrents
-  - postdoctoral researcher
-  - AI and organizations
-  - healthcare
+  - academic website
+  - human-ai collaboration
+  - digital health
 ---
 
-# Joël Perez-Torrents
+# Joel Perez-Torrents
 
-Postdoctoral researcher in organizational theory and information systems at the Desautels Faculty of Management, McGill University (Montréal), and affiliated researcher at Centre de Recherche en Gestion, i3-CNRS, Institut Polytechnique Paris.
+Researcher focused on Human-AI collaboration, digital health practices, and qualitative methods in technology studies.
 
-## Research focus
+## Position
 
-My work studies epistemic transformations induced by AI in high-expertise contexts, including healthcare. I mobilize pragmatist, STS, and organizational theory lenses, with qualitative field methods. I have an engineering background, defended my PhD in 2024, and contributed to creating the Institute for Transforming Healthcare at McGill.
+I work on interdisciplinary projects combining AI systems analysis, ethnographic methods, and pragmatist perspectives to study decision-making in healthcare settings.
 
-## Profiles and contact
+## Research themes
 
-- Email: [joel.perez-torrents@polytechnique.edu](mailto:joel.perez-torrents@polytechnique.edu)
-- ORCID: [0009-0008-5860-1948](https://orcid.org/0009-0008-5860-1948)
-- Google Scholar: [Scholar profile](https://scholar.google.com/citations?user=a-3uzfgAAAAJ&hl=en)
+- Human-AI collaboration in professional environments.
+- AI adoption in healthcare organizations.
+- Ethnographic and qualitative approaches for socio-technical systems.
+
+## Contact
+
+- Email: [jpereztorrents+github@gmail.com](mailto:jpereztorrents+github@gmail.com)
 - GitHub: [github.com/JPTorrents](https://github.com/JPTorrents)
+- Writing: [jptorrents.substack.com](https://jptorrents.substack.com)
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Joel Perez-Torrents",
+  "givenName": "Joel",
+  "familyName": "Perez-Torrents",
+  "jobTitle": "Researcher",
+  "url": "{{ '/' | absolute_url }}",
+  "email": "mailto:jpereztorrents+github@gmail.com",
+  "sameAs": [
+    "https://github.com/JPTorrents",
+    "https://jptorrents.substack.com"
+  ],
+  "knowsAbout": [
+    "Human-AI collaboration",
+    "Healthcare AI",
+    "Ethnographic methods"
+  ]
+}
+</script>

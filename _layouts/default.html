@@ -1,16 +1,18 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+<html lang="{{ site.lang | default: 'en' }}">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
     <meta name="description" content="{{ page.description | default: site.description | strip }}" />
-    {% if page.keywords %}<meta name="keywords" content="{{ page.keywords | join: ', ' }}" />{% endif %}
+    {% if page.keywords %}
+      <meta name="keywords" content="{{ page.keywords | join: ', ' }}" />
+    {% endif %}
 
     {% assign canonical_url = page.url | replace:'index.html','' | absolute_url %}
     <link rel="canonical" href="{{ canonical_url }}" />
 
-    <meta property="og:type" content="{% if page.collection == 'publications' %}article{% else %}website{% endif %}" />
+    <meta property="og:type" content="website" />
     <meta property="og:site_name" content="{{ site.title }}" />
     <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
     <meta property="og:description" content="{{ page.description | default: site.description | strip }}" />
@@ -20,7 +22,6 @@
     <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
     <meta name="twitter:description" content="{{ page.description | default: site.description | strip }}" />
 
-    {% include jsonld.html %}
     <link rel="stylesheet" href="{{ '/assets/styles/main.css' | relative_url }}" />
   </head>
   <body>

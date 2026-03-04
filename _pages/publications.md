@@ -2,15 +2,15 @@
 layout: default
 title: Publications
 permalink: /publications/
-description: Publications list curated from CV and Google Scholar references.
+description: Structured publication list with links to article details.
 keywords:
   - publications
-  - scholarly articles
+  - papers
 ---
 
 # Publications
 
-This page lists publications in a stable format for human reading and machine parsing.
+Below is a structured list of publications using a stable schema for easy reading and machine parsing.
 
 {% assign publications = site.data.publications | sort: 'year' | reverse %}
 {% for pub in publications %}
@@ -19,18 +19,10 @@ This page lists publications in a stable format for human reading and machine pa
   <p><strong>Authors:</strong> {{ pub.authors | join: ', ' }}</p>
   <p><strong>Year:</strong> {{ pub.year }}</p>
   <p><strong>Venue:</strong> {{ pub.venue }}</p>
-  <p><strong>DOI/URL:</strong>
-    {% if pub.doi %}
-      <a href="https://doi.org/{{ pub.doi }}">https://doi.org/{{ pub.doi }}</a>
-    {% elsif pub.url %}
-      <a href="{{ pub.url }}">{{ pub.url }}</a>
-    {% else %}
-      Not available
-    {% endif %}
-  </p>
-  <p><strong>Abstract:</strong> {{ pub.abstract | default: 'Not available.' }}</p>
-  <p><strong>Keywords:</strong> {% if pub.keywords %}{{ pub.keywords | join: ', ' }}{% else %}Not available.{% endif %}</p>
-  <p><strong>Methods:</strong> {{ pub.methods | default: 'Not available.' }}</p>
-  <p><strong>Data:</strong> {{ pub.data | default: 'Not available.' }}</p>
+  <p><strong>DOI:</strong> {% if pub.doi %}<a href="https://doi.org/{{ pub.doi }}">{{ pub.doi }}</a>{% else %}N/A{% endif %}</p>
+  <p><strong>Abstract:</strong> {{ pub.abstract }}</p>
+  <p><strong>Keywords:</strong> {{ pub.keywords | join: ', ' }}</p>
+  <p><strong>Methods:</strong> {{ pub.methods }}</p>
+  <p><strong>Data:</strong> {{ pub.data }}</p>
 </article>
 {% endfor %}

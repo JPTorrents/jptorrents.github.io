@@ -2,12 +2,12 @@
 layout: default
 title: About
 permalink: /
-description: About Joël Perez-Torrents: research program, key concepts, methods, and domains.
+description: "About Joël Perez-Torrents: research program, key concepts, methods, and domains."
 keywords:
-  - about
-  - human-ai collaboration
-  - digital health
-  - organization studies
+  - "about"
+  - "human-ai collaboration"
+  - "digital health"
+  - "organization studies"
 person_schema: true
 ---
 

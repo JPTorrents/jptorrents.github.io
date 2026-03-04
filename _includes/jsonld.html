@@ -1,3 +1,7 @@
+{% assign profile_url = '/' | absolute_url %}
+{% assign author_name = site.author.name | default: site.title %}
+{% assign author_job = site.author.job_title | default: 'Researcher' %}
+
 {% if page.collection == 'publications' %}
 {% assign pub = site.data.publications | where: 'slug', page.slug | first %}
 <script type="application/ld+json">
@@ -23,24 +27,17 @@
 {
   "@context": "https://schema.org",
   "@type": "Person",
-  "name": "Joël Perez-Torrents",
-  "jobTitle": "Postdoctoral Researcher",
+  "name": {{ author_name | jsonify }},
+  "givenName": {{ site.author.given_name | jsonify }},
+  "familyName": {{ site.author.family_name | jsonify }},
+  "jobTitle": {{ author_job | jsonify }},
   "affiliation": {
     "@type": "Organization",
-    "name": "Desautels Faculty of Management, McGill University"
+    "name": {{ site.author.affiliation | jsonify }}
   },
-  "address": {
-    "@type": "PostalAddress",
-    "addressLocality": "Montréal",
-    "addressCountry": "CA"
-  },
-  "email": "mailto:joel.perez-torrents@polytechnique.edu",
-  "url": {{ '/' | absolute_url | jsonify }},
-  "sameAs": [
-    "https://orcid.org/0009-0008-5860-1948",
-    "https://scholar.google.com/citations?user=a-3uzfgAAAAJ&hl=en",
-    "https://github.com/JPTorrents"
-  ]
+  "email": {{ site.author.email | prepend: 'mailto:' | jsonify }},
+  "url": {{ profile_url | jsonify }},
+  "sameAs": {{ site.author.same_as | jsonify }}
 }
 </script>
 {% elsif page.url == '/publications/' %}
@@ -70,12 +67,12 @@
 {
   "@context": "https://schema.org",
   "@type": "ProfilePage",
-  "name": "CV · Joël Perez-Torrents",
+  "name": {{ 'CV · ' | append: author_name | jsonify }},
   "url": {{ page.url | absolute_url | jsonify }},
   "mainEntity": {
     "@type": "Person",
-    "name": "Joël Perez-Torrents",
-    "jobTitle": "Postdoctoral Researcher"
+    "name": {{ author_name | jsonify }},
+    "jobTitle": {{ author_job | jsonify }}
   },
   "hasPart": {
     "@type": "CreativeWork",

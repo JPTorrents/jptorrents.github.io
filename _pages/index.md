@@ -60,25 +60,3 @@ I work on interdisciplinary projects combining AI systems analysis, ethnographic
   <li>GitHub: <a href="https://github.com/JPTorrents">github.com/JPTorrents</a></li>
   <li>Writing: <a href="https://jptorrents.substack.com">jptorrents.substack.com</a></li>
 </ul>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Person",
-  "name": "Joel Perez-Torrents",
-  "givenName": "Joel",
-  "familyName": "Perez-Torrents",
-  "jobTitle": "Researcher",
-  "url": "{{ '/' | absolute_url }}",
-  "email": "mailto:jpereztorrents+github@gmail.com",
-  "sameAs": [
-    "https://github.com/JPTorrents",
-    "https://jptorrents.substack.com"
-  ],
-  "knowsAbout": [
-    "Human-AI collaboration",
-    "Healthcare AI",
-    "Ethnographic methods"
-  ]
-}
-</script>

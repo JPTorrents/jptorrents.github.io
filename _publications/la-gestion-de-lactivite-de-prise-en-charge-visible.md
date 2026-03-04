@@ -9,6 +9,8 @@ authors:
   - "Joël Perez-Torrents"
 venue: "Revue française de gestion"
 doi: "10.1684/rfg.2024.42"
+url: ""
+pdf_url: ""
 external_url: "https://doi.org/10.1684/rfg.2024.42"
 abstract: ""
 keywords:

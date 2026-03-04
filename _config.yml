@@ -1,7 +1,7 @@
 title: Joel Perez-Torrents
 email: jpereztorrents+github@gmail.com
 description: >-
-  Personal academic website of Joel Perez-Torrents: research themes,
+  Personal academic website of Joel Perez-Torrents. Research themes,
   publications, and academic profile.
 baseurl: ""
 url: "https://jptorrents.github.io"
@@ -12,8 +12,8 @@ author:
   name: Joel Perez-Torrents
   given_name: Joel
   family_name: Perez-Torrents
-  job_title: Researcher
-  affiliation: Independent / Academic Collaborations
+  job_title: Postdoctoral Researcher / Fellow
+  affiliation: Desautels, McGill University / CRG, Ecole polytechnique
   email: jpereztorrents+github@gmail.com
   same_as:
     - https://orcid.org/0009-0008-5860-1948

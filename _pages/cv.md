@@ -14,7 +14,7 @@ person_schema: true
 
 
 ## Biography
-I study how Artificial Intelligence reconfigures **expert work** and **knowledge production** in high-stakes and expert organizational settings—especially healthcare. Trained at École polytechnique (engineering) and holding a PhD in Management (2024), I combine pragmatist approaches, Science & Technology Studies, and organization theory to understand AI use in the production of knowledge. I also contribute to the creation of McGill’s **Institute for Health Transformation**, at the intersection of management, medicine, and public policy.
+I study how Artificial Intelligence reconfigures expert work and knowledge production in high-stakes and expert organizational settings—especially healthcare. Trained at École polytechnique (engineering) and holding a PhD in Management (2024), I combine pragmatist approaches, Science & Technology Studies, and organization theory to understand AI use in the production of knowledge. I also contribute to the creation of McGill’s Institute for Health Transformation, at the intersection of management, medicine, and public policy.
 
 ## Research profile
 Organizational Theory

@@ -2,43 +2,32 @@
 layout: default
 title: About
 permalink: /
-description: "About Joël Perez-Torrents: research program, key concepts, methods, and domains."
+description: "About Joël Perez-Torrents: research program, methods, and domains."
 keywords:
-  - "about"
   - "human-ai collaboration"
-  - "digital health"
-  - "organization studies"
+  - "technology and organizing"
+  - "healthcare innovation"
 person_schema: true
 ---
 
 # About
 
+Postdoctoral reseracher at Desautels Faculty of Management, McGill University.
+Fellow at the Centre de Recherche en Gestion (CNRS-i3), Institut Polytechnique de Paris.
+
 ## Research program
 
-My research program examines how artificial intelligence is integrated into professional judgment and collective coordination in healthcare organizations. I connect organization studies, sociology of technology, and management research to analyze how clinicians, managers, and technical teams negotiate responsibility around AI-supported decisions. Current collaborations include work linked to McGill University, the Centre de Recherche en Gestion (CRG), and interdisciplinary digital health networks in Canada and France.
+As a researcher, I work to challenge our traditional boundaries and habitual cuts: human/machine, knowing/doing, facts/values, expert/lay, organization/technology. I therefore focus on their blurry interfaces, studying how these distinctions leak, turn brittle and collapse in the practical accomplishments performed through collective (inter)action. The ambition is to move beyond entrenched dichotomies and develop more generative perspectives for understanding and acting in—and with!—the world. The (re)constructing of our onto-epistemologies is an act of care as well as an ethico-political responsibility, as it implicates how realities are assembled, by whom, for whom, and with what consequences. This is why my work evolves towards collective, democratic inquiry. I organize my research around three synergistic axes.
 
-## Key concepts
-
-I focus on conceptual tools that make Human-AI work analyzable across institutions and domains:
-
-- Human-AI collaboration and distributed agency
-- Organizational knowing and epistemic infrastructures
-- Accountability, trust calibration, and decision quality
-- Sociomaterial practice, professional discretion, and coordination work
-
-These concepts help compare settings such as cancer care pathways, radiology units, and remote patient monitoring programs while keeping attention on practical consequences for patients and care teams.
+### Axis 1 — Human–AI collaboration
+I study how human/machine collaboration is performed in situated practice: how AI outputs are made to count as evidence (or not), how judgment is threaded through people, models, devices, infrastructures, and procedures, and how accountability is (re)worked when decisions must be made under uncertainty. The analytic object is the entangled arena of making/using, design/(mis)use. Examples of this axis can be found in a recent conceptual piece [link], my PhD thesis [link], and an early article [link].
+### Axis 2 — Knowledge production
+I am interested in knowledge production as a process of inquiry: how doubt is cultivated and organized, how hypotheses take form, how tests are staged, and how results are held-together (for now), revisably, across heterogeneous human and non-human actors. Inquiry here is seen as a collective practice that implicates who can speak, what can be questioned, and what gets stabilized as “the case.” Examples of this axis can be found in my PhD thesis [link], and hopefully future articles.
+### Axis 3 — Healthcare and technoscience
+I invest healthcare as a privileged site. Much could be said to justify its theorertical relevance. Yet, a line from the field keeps returning: “once you go into healthcare, it’s hard to really go away; there is a deep sense of purpose.”. Examples of this axis can be found in my PhD thesis [link] and several articles [link].
 
 ## Methods
-
-My methods combine qualitative and mixed-method designs to capture both situated practices and institutional dynamics. I use ethnographic observation, semi-structured interviews, document analysis, and comparative case studies, sometimes alongside quantitative approaches such as structural equation modeling. This plural methodological strategy supports theory-building and evaluation of AI implementation beyond benchmark performance.
+Qualitative-first. Experience with shadowing and semi-structured interviews; comparative case-based theorizing. Developing action-research orientations. Not averse to quantitative methods, but I treat them as complementary and preferentially pursue them through collaboration.
 
 ## Domains
-
-My empirical domains concentrate on high-stakes and coordination-intensive contexts:
-
-- Digital health and clinical decision support
-- Oncology care coordination and nurse navigation
-- Radiology and AI-assisted diagnostic interpretation
-- Public and private healthcare organizations adopting machine learning tools
-
-Across these domains, I study how AI systems alter workflows, expertise boundaries, and governance mechanisms in real operational environments.
+Expert knowledge domains, with emphasis on healthcare settings and technology development

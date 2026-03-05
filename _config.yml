@@ -30,6 +30,7 @@ sass:
   style: compressed
   sass_dir: _sass
 
+# Ensure custom pages collection-like directory is processed by GitHub Pages/Jekyll
 include:
   - _pages
 

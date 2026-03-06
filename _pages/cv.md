@@ -70,6 +70,8 @@ FNEGE Thésée Workshops “En quête d’IA” (26 Nov 2025), France.
 
 *Doctoriales* (12 Jun 2024), i3–CNRS, Télécom Paris – IMT.
 
+[Journée Éthique de la radiologie et de l’imagerie médicale, Espace éthique Ile-de-France (18 janvier 2023) *La question du tri et du micro-tri en radiologie*](https://www.youtube.com/watch?v=5H5zft381kg)
+
 *Big Data & Health Seminar* (22 Sep 2022), Paris Santé Campus: *Toward an ethology of AI tools in the healthcare system.*
 
 IP Paris Science Forum (21 Oct 2021), Télécom: *A healthcare revolution?*

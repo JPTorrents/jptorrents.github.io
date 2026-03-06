@@ -14,6 +14,27 @@ Curated list of invited talks, seminars, and conference.
 
 If you’d like to interview me or invite me to speak at your event, please do [reach out](mailto:joel.pereztorrents@mcgill.ca).
 
+
+## Selected academic talks
+
+Invited talk, IAE Nantes (27 Nov 2025): *Managing Personalized Patient Pathways in the Digital Age: Large-Scale Management of Uniqueness via Human–Machine Collaboration.*
+
+FNEGE Thésée Workshops “En quête d’IA” (26 Nov 2025), France.
+
+*International Academic Action-Research Day on Generative AI, Responsible Performance, and Transformation* (15 Oct 2025), ESSEC Executive (France): *A Time for Monsters: Organizational Knowing After LLMs.*
+
+*Artificial Intelligence in the Healthcare Sector: New Opportunities and Challenges* (21 Feb 2025). Management Research Center & Chair Technology for Change (École polytechnique) and University of Southern Denmark.
+
+*Doctoriales* (12 Jun 2024), i3–CNRS, Télécom Paris – IMT.
+
+[Journée Éthique de la radiologie et de l’imagerie médicale, Espace éthique Ile-de-France (18 janvier 2023) *La question du tri et du micro-tri en radiologie*](https://www.youtube.com/watch?v=5H5zft381kg)
+
+*Big Data & Health Seminar* (22 Sep 2022), Paris Santé Campus: *Toward an ethology of AI tools in the healthcare system.*
+
+IP Paris Science Forum (21 Oct 2021), Télécom: *A healthcare revolution?*
+
+CNRS Paul-Langevin Center Summer School, Aussois (5–9 Jul 2021): *AI and the personalization of patient pathways.*
+
 ## Conferences
 
 Yatim, F., et al. (2025, 21 Nov). *Telemedicine platforms as loosely coupled systems: a new strategy for integrating health systems.* ARAMOS, France.
@@ -39,26 +60,6 @@ RICK Workshop — “AI and Agency”, Judge Business School (Cambridge) (June 2
 Organization & Management Studies Development Workshop (April 2023). Sponsored by EGOS, *Organization Studies*, and Università LUMSA (Italy).
 
 SIG Tutorial on Design Theory (February 2022). Centre Scientifique de Gestion, Mines ParisTech (France).
-
-## Selected academic talks
-
-Invited talk, IAE Nantes (27 Nov 2025): *Managing Personalized Patient Pathways in the Digital Age: Large-Scale Management of Uniqueness via Human–Machine Collaboration.*
-
-FNEGE Thésée Workshops “En quête d’IA” (26 Nov 2025), France.
-
-*International Academic Action-Research Day on Generative AI, Responsible Performance, and Transformation* (15 Oct 2025), ESSEC Executive (France): *A Time for Monsters: Organizational Knowing After LLMs.*
-
-*Artificial Intelligence in the Healthcare Sector: New Opportunities and Challenges* (21 Feb 2025). Management Research Center & Chair Technology for Change (École polytechnique) and University of Southern Denmark.
-
-*Doctoriales* (12 Jun 2024), i3–CNRS, Télécom Paris – IMT.
-
-[Journée Éthique de la radiologie et de l’imagerie médicale, Espace éthique Ile-de-France (18 janvier 2023) *La question du tri et du micro-tri en radiologie*](https://www.youtube.com/watch?v=5H5zft381kg)
-
-*Big Data & Health Seminar* (22 Sep 2022), Paris Santé Campus: *Toward an ethology of AI tools in the healthcare system.*
-
-IP Paris Science Forum (21 Oct 2021), Télécom: *A healthcare revolution?*
-
-CNRS Paul-Langevin Center Summer School, Aussois (5–9 Jul 2021): *AI and the personalization of patient pathways.*
 
 Doctoriales (19 May 2021), i3–CNRS, Mines ParisTech.
 

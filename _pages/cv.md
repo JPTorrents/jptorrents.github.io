@@ -87,7 +87,7 @@ AI Winter School (2020), Health Data Hub (online).
 
 **École nationale des ponts et chaussées, Champs-sur-Marne (France)**  
 
-Lecturer / Teaching Assistant (4 months, 2023–2024)
+Teaching Assistant (4 months, 2023–2024)
 
 **Mines ParisTech, Paris (France)**
 
@@ -110,13 +110,13 @@ CEFAG (FNEGE) — Visiting scholarship: **€1,400**
 
 ## Awards
 
-2nd Prize — Best Dissertation, ARAMOS (2025)
+[2nd Prize — Best Dissertation, ARAMOS (2025)](https://aramos.fr/2025/09/02/portrait-de-rentree-episode-1-3/)
 
 2nd Prize — Best Paper, ARAMOS (2025)
 
 Selected for the Academic Excellence Prize — Jean-Jacques & Felicia Lopez-Loreta Foundation (2024)
 
-CEFAG Fellowship (cohort 2022), FNEGE
+[CEFAG Fellowship (cohort 2022), FNEGE](https://fnege.org/programme-cefag/)
 
 ## Education
 

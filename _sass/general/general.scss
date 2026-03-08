@@ -29,7 +29,11 @@
 
 body {
   margin: 0;
-  background: var(--bg-frame);
+  background:
+    radial-gradient(circle at 20% 15%, rgba(42, 22, 56, 0.45), transparent 38%),
+    radial-gradient(circle at 80% 25%, rgba(30, 17, 66, 0.35), transparent 42%),
+    linear-gradient(135deg, #200C1C 0%, #1E1142 52%, #24122F 100%);
+  background-color: var(--bg-frame);
   color: var(--text-body);
   font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
   font-size: var(--font-body);
@@ -45,9 +49,9 @@ body {
 main {
   background: var(--bg-main);
   padding-block: var(--space-3) var(--space-4);
-  margin-block: 2.5rem;
+  margin-block: 0.25rem;
   border-radius: 0.85rem;
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.06);
 }
 
 h1,
@@ -181,9 +185,8 @@ hr {
 }
 
 .site-footer {
-  border-top: 1px solid var(--border);
   color: var(--nav-text);
-  padding-block: var(--space-2) var(--space-3);
+  padding-block: 0.75rem var(--space-2);
 }
 
 .meta {

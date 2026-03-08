@@ -1,33 +1,131 @@
-- slug: ai-clinical-collaboration-2024
-  title: "Human-AI Collaboration in Clinical Decision Support"
+- slug: a-time-for-monsters-organizational-knowing-after-llms-2026
+  title: "A Time For Monsters: Organizational Knowing After LLMs"
   authors:
+    - Samer Faraj
     - Joel Perez-Torrents
-    - Alex Martin
-  year: 2024
-  venue: "Journal of Digital Health Practices"
-  doi: "10.1234/jdhp.2024.001"
-  abstract: "This article studies collaborative routines between clinicians and AI-assisted decision support systems. Based on qualitative fieldwork, it identifies practical tensions around trust, interpretation, and accountability and proposes design implications for safer integration."
+    - Saku Mantere
+    - Anand Bhardwaj
+  year: 2026
+  venue: "Strategic Organization"
+  doi: "https://doi.org/10.1177/14761270251410675"
+  abstract: "Large language models are reshaping organizational knowing by unsettling the epistemological foundations of representational and practice-based perspectives. We conceptualize large language models as Haraway-ian monsters, that is, hybrid, boundary-crossing entities that destabilize established categories while opening new possibilities for inquiry. Focusing on analogizing as a fundamental driver of knowledge, we examine how large language models generate connections through large-scale statistical inference. Analyzing their operation across the dimensions of surface/deep analogies and near/far domains, we highlight both their capacity to expand organizational knowing and the epistemic risks they introduce. Building on this, we identify three challenges of living with such epistemic monsters: the transformation of inquiry, the growing need for dialogical vetting, and the redistribution of agency. By foregrounding the entangled dynamics of knowing-with-large language models, the article extends organizational theory beyond human-centered epistemologies and invites renewed attention to how knowledge is created, validated, and acted upon in the age of intelligent technologies."
   keywords:
-    - Human-AI collaboration
-    - Clinical decision support
-    - Qualitative research
-    - Healthcare AI
-    - Accountability
-  methods: "Multi-site ethnographic observation and semi-structured interviews."
-  data: "Anonymized field notes and coded interview excerpts available on request."
-
-- slug: ethnography-ai-evaluation-2023
-  title: "Ethnographic Methods for Evaluating AI in Healthcare Organizations"
-  authors:
-    - Joel Perez-Torrents
-  year: 2023
-  venue: "Proceedings of the International Conference on AI & Society"
-  doi: "10.1234/icais.2023.114"
-  abstract: "The paper introduces an ethnographic framework for evaluating AI systems in organizational settings. It complements model-centric metrics with situated analyses of workflow adaptation, professional judgment, and institutional constraints."
-  keywords:
-    - Ethnography
-    - AI evaluation
+    - Large language models
+    - Organizational knowing
+    - Knowledge production
+    - Strategy
     - Organizations
-    - Healthcare
-  methods: "Participant observation, interview protocol, and thematic analysis."
-  data: "Methodological toolkit and synthetic examples in supplementary materials."
+  methods: ""
+  data: ""
+
+- slug: remote-monitoring-system-for-older-adults-at-risk-2025
+  title: "Remote Monitoring System for Older Adults at Risk for Complications: A Scoping Review"
+  authors:
+    - Salma Israa
+    - Testa Damien
+    - Mpoy Jacky-Vivien
+    - Perez-Torrents Joel
+    - Rehault Jean-Malo
+    - Cabanes Elise
+    - Minvielle Etienne
+  year: 2025
+  venue: "BMC Geriatrics"
+  doi: "https://doi.org/10.1186/s12877-025-06385-8"
+  abstract: "Aging populations and the increasing incidence of chronic diseases are placing additional pressure on healthcare systems. Remote monitoring systems (RMS) have emerged as a solution for improving remote healthcare efficiency and monitoring complex elderly patients. However, telemonitoring services in elderly care are still in their infancy, and their effectiveness remains unproven, with the potential for context-dependent variability. To bridge this gap, we conducted a scoping review to understand the current state of RMSs for elderly individuals at risk for complications, and their potential impact on healthcare service use, elderly’s quality of life, and cost-effectiveness. Following the PRISMA-ScR guidelines, data were gathered from PubMed, Scopus, and Google Scholar databases using predefined keywords, from 2010 onwards. Only English peer-reviewed studies that met the eligibility criteria were retained. A total of 1,576 articles were initially identified. After removing duplicates and screening titles and abstracts, 47 articles were eligible for full-text assessment. Of these, 18 articles were included in the final analysis. Multiple RMSs have been identified and used for elderly patients with complex chronic conditions and a high risk of complications. Such systems typically involve telemonitoring devices, integrated or not with health questionnaires, supported by an automated alert system led by a healthcare professional, usually a nurse, who collaborates with different healthcare structures. The evaluation of RMSs effectiveness was primarily based on health service utilization—particularly hospitalization, emergency room visits and length of hospital stay—followed by quality of life and cost-effectiveness. Our findings support the promising impact of RMSs on reducing hospitalization for at-risk elderly individuals, especially the unplanned hospitalization, improving quality of life, and its cost-effectiveness. This review outlines multiple RMSs used for elderly individuals at risk for complications. Although the effectiveness of RMSs may depend on the content and level of responsiveness, our review underscores the necessity for further empirical research into telemonitoring interventions to fully understand their impact on elderly health outcomes and healthcare systems resources."
+  keywords:
+    - Remote monitoring systems
+    - At-risk elderly individuals
+    - Chronic conditions
+    - Hospitalization
+    - Quality of life
+    - Cost-effectiveness
+  methods: "Following the PRISMA-ScR guidelines, data were gathered from PubMed, Scopus, and Google Scholar databases using predefined keywords, from 2010 onwards. Only English peer-reviewed studies that met the eligibility criteria were retained"
+  data: "A total of 1,576 articles were initially identified. After removing duplicates and screening titles and abstracts, 47 articles were eligible for full-text assessment. Of these, 18 articles were included in the final analysis. Multiple RMSs have been identified and used for elderly patients with complex chronic conditions and a high risk of complications. Such systems typically involve telemonitoring devices, integrated or not with health questionnaires, supported by an automated alert system led by a healthcare professional, usually a nurse, who collaborates with different healthcare structures. The evaluation of RMSs effectiveness was primarily based on health service utilization—particularly hospitalization, emergency room visits and length of hospital stay—followed by quality of life and cost-effectiveness. Our findings support the promising impact of RMSs on reducing hospitalization for at-risk elderly individuals, especially the unplanned hospitalization, improving quality of life, and its cost-effectiveness."
+  volume: 25
+  article_number: 766
+
+- slug: nurse-navigators-digital-remote-monitoring-cancer-care-2025
+  title: "The Effect of Nurse Navigators in Digital Remote Monitoring in Cancer Care: Case Study Using Structural Equation Modeling"
+  authors:
+    - Etienne Minvielle
+    - Joel Perez-Torrents
+    - Salma Israa
+    - Philippe Aegerter
+    - Marie Ferrua
+    - Charles Ferté
+    - Henri Leleu
+    - Delphine Mathivon
+    - Claude Sicotte
+    - Mario Di Palma
+    - Florian Scotté
+  year: 2025
+  venue: "Journal of Medical Internet Research"
+  doi: "https://www.jmir.org/2025/1/e66275"
+  abstract: "The purpose of digital remote monitoring (DRM) is improving cancer care management. However, its effectiveness largely depends on the role of nurse navigators (NNs) within these systems to process data and lead action. This study aims to fill gaps in our understanding of the role of NNs within a specific system, drawing on the Cancérologie parcours région Ile-de-France (CAPRI) DRM program applied to oncology patients. The CAPRI DRM, targeting patients taking oral anticancer agents, combines digital interfaces with NN interventions. A phase 3 randomized controlled trial involving 559 patients assessed its safety and efficacy, with the primary end point being the relative dose intensity. This report focuses on patients in the CAPRI arm, evaluating the impact of NN interventions on outcomes such as toxicity, hospitalization, and emergency visits. Data on patient characteristics, NN interventions, and patient satisfaction surveys were analyzed using structural equation modeling. The study included 187 patients. Patient characteristics were significantly correlated with outcomes. Across all the models we used, the quality of NN interventions was consistently associated with higher patient satisfaction, with correlation coefficients ranging from 0.332 (95% CI 0.154-0.510; P<.001) to 0.366 (95% CI 0.182-0.550; P<.001). The number of grade ≥3 toxicity events correlated positively with NN referrals to oncologists. Hospitalization length was positively related to NN referral (coefficient 0.102, 95% CI 0.051-0.153; P<.001) and inversely to NN advice (coefficient –0.045, 95% CI –0.096 to 0.006; P=.08). Emergency visits showed a negative correlation with NN actions (coefficient –0.478, 95% CI –0.923 to 0.033; P=.04) and a positive correlation with NN calls and referrals (coefficient 0.516, 95% CI 0.069-0.963; P=.02). This study shows the central role of NNs in making DRM effective. Despite the study’s limitations, these results support the design of DRM as a hybrid model of automated digital tools and human support. Future research should explore the applicability of such a DRM model in various clinical settings to clarify the optimal association between automated systems and NN expertise."
+  keywords:
+    - Nurse navigators
+    - Digital remote monitoring
+    - Cancer care
+    - Structural equation modeling
+    - Case study
+  methods: "he CAPRI DRM, targeting patients taking oral anticancer agents, combines digital interfaces with NN interventions. A phase 3 randomized controlled trial involving 559 patients assessed its safety and efficacy, with the primary end point being the relative dose intensity. This report focuses on patients in the CAPRI arm, evaluating the impact of NN interventions on outcomes such as toxicity, hospitalization, and emergency visits. Data on patient characteristics, NN interventions, and patient satisfaction surveys were analyzed using structural equation modeling."
+  data: "The study included 187 patients. Patient characteristics were significantly correlated with outcomes. Across all the models we used, the quality of NN interventions was consistently associated with higher patient satisfaction, with correlation coefficients ranging from 0.332 (95% CI 0.154-0.510; P<.001) to 0.366 (95% CI 0.182-0.550; P<.001). The number of grade ≥3 toxicity events correlated positively with NN referrals to oncologists. Hospitalization length was positively related to NN referral (coefficient 0.102, 95% CI 0.051-0.153; P<.001) and inversely to NN advice (coefficient –0.045, 95% CI –0.096 to 0.006; P=.08). Emergency visits showed a negative correlation with NN actions (coefficient –0.478, 95% CI –0.923 to 0.033; P=.04) and a positive correlation with NN calls and referrals (coefficient 0.516, 95% CI 0.069-0.963; P=.02)."
+  volume: 27
+  article_number: "e66275"
+
+- slug: gerer-la-collaboration-entre-lexpert-metier-et-lintelligence-artificielle-2024
+  title: "Gérer la collaboration entre l’expert métier et l’Intelligence Artificielle : Deux études de cas dans le système de soins"
+  authors:
+    - Joel Perez-Torrents
+  year: 2024
+  venue: "Institut Polytechnique de Paris"
+  doi: "https://theses.hal.science/tel-04780193/"
+  abstract: "L’Intelligence Artificielle (IA) mobilise des méthodes d’apprentissage machine pour automatiser la création de modèles statistiques complexes. Ces outils d’IA peuvent accomplir des tâches avec des performances similaires à celles des experts, mais la manière dont les résultats sont produits reste souvent opaque, posant des défis pour leur intégration dans les organisations. Cette thèse explore la collaboration entre les experts métier et les outils d’IA dans le contexte du système de soins.Dans le système de soins, cette collaboration est cruciale en raison de la responsabilité professionnelle et morale des décisions médicales et de leur incertitude inhérente. Si les outils d’IA promettent de répondre aux tensions de ce système en offrant une personnalisation accrue des soins à moindre coût, ils suscitent également des craintes et leur adoption reste à concrétiser. Notre démarche empirique produit deux études de cas illustrant ces dynamiques. RADO porte sur les usages d’un outil d’IA par des radiologues pour l’analyse mammographique, visant à améliorer leur activité. La seconde étude de cas, KOVAK, examine comment une équipe de recherche médicale utilise des outils d’IA pour analyser des données de cohortes de patients.Nous utilisons un premier cadre d’analyse pour observer comment les experts intègrent leurs connaissances avec les résultats de l’outil d’IA, démontrant ainsi un engagement dans la collaboration. Un deuxième cadre caractérise une double nature de l’usage de l’outil d’IA, entre optimisation d’une activité et apprentissages, et montre l’augmentation des capacités des radiologues grâce à cette collaboration Un troisième cadre, fondé sur les travaux de Peirce sur l’enquête pragmatiste, considère l’outil d’IA comme un partenaire dans la construction des connaissances.Nous proposons un modèle de collaboration, l’EMC2 (Expert Machine Collaborative Community). Il intègre différents modes de gestion de la collaboration expert-IA facilitant ainsi une meilleure intégration de cette collaboration au sein des organisations.Cette thèse contribue à la littérature sur les modèles de collaboration humain-IA par des modes de gestion issus d’une démarche empirique. Elle enrichit aussi la littérature sur les usages des outils d’IA en spécifiant des pratiques interrogatives et en appliquant le concept d’enquête pragmatiste."
+  keywords:
+    - Système de soins 
+    - Expert métier
+    - Intelligence Artificielle
+    - Humain-IA Collaboration
+  methods: ""
+  data: ""
+  type: "PhD thesis dissertation"
+  location: "France"
+
+- slug: la-gestion-de-lactivite-de-prise-en-charge-des-patients-peut-elle-devenir-visible-2024
+  title: "La gestion de l’activité de prise en charge des patients peut-elle devenir visible ?"
+  authors:
+    - Aurore Fierobe
+    - Philippe Lorino
+    - Etienne Minvielle
+    - Joel Perez-Torrents
+  year: 2024
+  venue: "Revue française de gestion"
+  doi: "https://doi.org/10.1684/rfg.2024.42"
+  abstract: "Malgré les ressources injectées dans le système, le malaise des professions de santé persiste. L’hypothèse avancée est qu’une grande partie des problèmes se situe au niveau de l’activité réelle. À partir d’une analyse sur le fardeau administratif, les hiérarchies hospitalières, et la coordination du parcours du patient, et en s’inspirant de la pensée pragmatiste, un diagnostic d’ensemble ressort : menée par des professionnels qui agissent sur le terrain, des solutions adaptées se bâtissent, mais restent assez invisibles, car éloignées de la mise en place des réformes officielles."
+  keywords:
+    - Philosophie de la santé
+    - Sciences infirmières
+  methods: ""
+  data: ""
+  volume: 318
+  issue: 5
+  pages: "131-150"
+
+- slug: usages-des-outils-dintelligence-artificielle-et-capacite-dagir-des-radiologues-2023
+  title: "Comment les usages des outils d’Intelligence Artificielle augmentent-ils la capacité d’agir des radiologues ?"
+  authors:
+    - Joel Perez-Torrents
+    - Etienne Minvielle
+  year: 2023
+  venue: "Journal de Gestion et d’Économie de la Santé"
+  doi: "https://doi.org/10.54695/jdds.041.3.0185"
+  abstract: "Les usages croissants des outils d’Intelligence Artificielle (IA) dans le domaine médical, notamment en radiologie, soulèvent des questions cruciales sur l’augmentation des capacités des professionnels hautement qualifiés. Notre étude se concentre sur deux cadres théoriques : les « pratiques interrogatives » et le cadre conformation/exploration. À partir de 81 heures d’observations (par la méthode du shadowing) et de 9 entretiens menés dans deux établissements de santé faisant usage de l’outil d’IA pour le diagnostic des mammographies, nous découvrons que la collaboration entre les radiologues et l’outil d’IA renforce principalement leurs capacités existantes (conformation) plutôt qu’à en développer de nouvelles (exploration). Ces résultats suggèrent la nécessité d’un dialogue approfondi entre les concepteurs d’outils d’IA et les experts métier pour promouvoir des pratiques interrogatives orientées vers l’exploration, permettant ainsi d’accroître les capacités professionnelles."
+  keywords:
+    - Artificial intelligence
+    - Radiology
+    - Capacity to act
+    - Healthcare work
+    - Technology use
+  methods: ""
+  data: ""
+  pages: "185-203"

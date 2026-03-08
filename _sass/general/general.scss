@@ -270,3 +270,24 @@ h3 {
   margin-top: 1.4rem;
   margin-bottom: 0.5rem;
 }
+
+.publication-block {
+  border: 1px solid var(--border);
+  background: var(--bg-soft);
+  border-radius: 0.45rem;
+  padding: var(--space-2);
+  margin-bottom: var(--space-4);
+}
+
+.publication-block h2 {
+  margin-top: 0;
+  margin-bottom: var(--space-1);
+}
+
+.publication-block p {
+  margin: 0 0 var(--space-1);
+}
+
+.publication-block p:last-child {
+  margin-bottom: 0;
+}

@@ -14,6 +14,7 @@ person_schema: true
 # About
 
 Postdoctoral researcher at Desautels Faculty of Management, McGill University.
+
 Fellow at the Centre de Recherche en Gestion (CNRS-i3), Institut Polytechnique de Paris.
 
 ## Research program

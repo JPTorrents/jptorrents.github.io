@@ -19,19 +19,10 @@ Fellow at the Centre de Recherche en Gestion (CNRS-i3), Institut Polytechnique d
 
 ## Research program
 
-As a researcher, I work to challenge our traditional boundaries and habitual cuts: human/machine, knowing/doing, facts/values, expert/lay, organization/technology. I therefore focus on their blurry interfaces, studying how these distinctions leak, turn brittle and collapse in the practical accomplishments performed through collective (inter)action. The ambition is to move beyond entrenched dichotomies and develop more generative perspectives for understanding and acting in _and with_ the world. The (re)constructing of our onto-epistemologies is an act of care as well as an ethico-political responsibility, as it implicates how realities are assembled, by whom, for whom, and with what consequences. This is why my work evolves towards collective, democratic inquiry. I organize my research around three synergistic axes.
+My research examines how organizations collectively inquire into uncertain and evolving realities. I study how evidence, expertise, algorithmic technologies, and institutions are mobilized to make complex situations intelligible and actionable.
 
-### Axis 1 — Human–AI collaboration
-I study how human/machine collaboration is performed in situated practice: how AI outputs are made to count as evidence (or not), how judgment is threaded through people, models, devices, infrastructures, and procedures, and how accountability is (re)worked when decisions must be made under uncertainty.
+Drawing on organization theory, science and technology studies, and pragmatist approaches, I analyze inquiry as a practical and collective process through which organizations define problems, produce knowledge, distribute judgment, coordinate action, and learn from the consequences of intervention. This perspective allows me to study knowledge and action together, rather than treating them as separate organizational processes.
 
-### Axis 2 — Knowledge production
-I am interested in knowledge production as a process of inquiry: how doubt is cultivated and organized, how hypotheses take form, how tests are staged, and how results are held-together (for now), revisably, across heterogeneous human and non-human actors. Inquiry here is seen as a collective practice that implicates who can speak, what can be questioned, and what gets stabilized.
+Empirically, my work focuses primarily on healthcare and technoscientific contexts, where organizations must act despite persistent uncertainty and where decisions increasingly depend on artificial intelligence, data infrastructures, evaluative systems, and professional expertise. I examine how evidence is produced and contested, how judgment is shared across human and technological actors, and how organizations sustain action when situations remain open, evolving, and only partially controllable.
 
-### Axis 3 — Healthcare and technoscience
-I invest healthcare as a privileged site. Much could be said to justify its theoretical relevance. Yet, a line from the field keeps returning: “once you go into healthcare, it’s hard to really go away; there is a deep sense of purpose.”
-
-## Methods
-Qualitative-first, or as H. Dumez says: 'comprehensive'. Experience with shadowing and semi-structured interviews; comparative case-based theorizing. Developing action-research orientations. Not averse to quantitative methods, but I treat them as complementary and preferentially pursue them through collaboration.
-
-## Domains
-Expert knowledge domains, with emphasis on healthcare settings and technology development
+My broader contribution is to develop a processual theory of organizing as collective inquiry, with particular attention to the socio-technical conditions under which organizations produce knowledge and transform the realities they seek to manage.

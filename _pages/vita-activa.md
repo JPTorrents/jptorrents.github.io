@@ -182,18 +182,18 @@ person_schema: true
         <details id="essay-from-decision-support-to-inquiry-support"><summary>From Decision Support to Inquiry Support</summary><div class="details-body"><p class="meta">Forthcoming</p><p>Essay on designing AI around inquiry support rather than decision support alone.</p></div></details>
       </div>
     </section>
+    <section id="teachings" aria-labelledby="teachings-heading">
+      <h2 id="teachings-heading">Teachings</h2>
+      <details>
+        <summary>Teachings</summary>
+        <div class="details-body">
+          <ul>
+            <li><strong>École nationale des ponts et chaussées, Champs-sur-Marne</strong> — Teaching Assistant, 2023–2024.</li>
+            <li><strong>Mines ParisTech, Paris</strong> — Teaching Assistant, Deeptech Entrepreneurship &amp; Innovation, 2023.</li>
+            <li><strong>École polytechnique, Palaiseau</strong> — Serious-games facilitation, Master’s thesis supervision, and scientific project supervision, 2021–2024.</li>
+          </ul>
+        </div>
+      </details>
+    </section>
   </div>
 </div>
-<section id="teachings" aria-labelledby="teachings-heading">
-  <h2 id="teachings-heading">Teachings</h2>
-  <details>
-    <summary>Teachings</summary>
-    <div class="details-body">
-      <ul>
-        <li><strong>École nationale des ponts et chaussées, Champs-sur-Marne</strong> — Teaching Assistant, 2023–2024.</li>
-        <li><strong>Mines ParisTech, Paris</strong> — Teaching Assistant, Deeptech Entrepreneurship &amp; Innovation, 2023.</li>
-        <li><strong>École polytechnique, Palaiseau</strong> — Serious-games facilitation, Master’s thesis supervision, and scientific project supervision, 2021–2024.</li>
-      </ul>
-    </div>
-  </details>
-</section>

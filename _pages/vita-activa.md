@@ -88,7 +88,7 @@ person_schema: true
       </details>
     </section>
     <section id="publications" aria-labelledby="publications-heading">
-      <h2 id="publications-heading">publications</h2>
+      <h2 id="publications-heading">Publications</h2>
       <p class="archive-note">Full publication list, migrated from the former Publications page. Each entry has a stable fragment identifier.</p>
       <div class="details-list">
         {% assign publications = site.data.publications | sort: "year" | reverse %}
@@ -101,7 +101,7 @@ person_schema: true
             {% assign link_target = pub.url %}
           {% endif %}
           <details id="publication-{{ pub.slug }}">
-            <summary>{{ pub.title }}</summary>
+            <summary>{{ pub.title }}{{ pub.year }}{{ pub.venue }}</summary>
             <div class="details-body">
               <dl class="entry-grid">
                 <dt>Metadata</dt>

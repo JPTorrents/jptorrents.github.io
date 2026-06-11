@@ -14,7 +14,7 @@ person_schema: true
 <div class="academic-page">
   <header class="page-header">
     <h1>Vita activa</h1>
-    <p class="lede">Public academic CV, articles, talks, essays, and biographical materials.</p>
+    <p class="lede">Public academic CV, publications, talks, essays, and biographical materials.</p>
   </header>
 <nav class="toc" aria-label="Vita activa sections">
   <p class="toc-title">Vitae</p>
@@ -26,7 +26,7 @@ person_schema: true
   <p class="toc-title">Contents</p>
   <ol>
     <li><a href="#bio">Bio</a></li>
-    <li><a href="#articles">Articles</a></li>
+    <li><a href="#publications">Publications</a></li>
     <li><a href="#selected-talks">Selected talks</a></li>
     <li><a href="#conferences">Conferences</a></li>
     <li><a href="#workshops">Workshops</a></li>
@@ -87,8 +87,8 @@ person_schema: true
         </div>
       </details>
     </section>
-    <section id="articles" aria-labelledby="articles-heading">
-      <h2 id="articles-heading">Articles</h2>
+    <section id="publications" aria-labelledby="publications-heading">
+      <h2 id="publications-heading">publications</h2>
       <p class="archive-note">Full publication list, migrated from the former Publications page. Each entry has a stable fragment identifier.</p>
       <div class="details-list">
         {% assign publications = site.data.publications | sort: "year" | reverse %}
@@ -100,7 +100,7 @@ person_schema: true
           {% elsif pub.url and pub.url != "" %}
             {% assign link_target = pub.url %}
           {% endif %}
-          <details id="article-{{ pub.slug }}">
+          <details id="publication-{{ pub.slug }}">
             <summary>{{ pub.title }}</summary>
             <div class="details-body">
               <dl class="entry-grid">

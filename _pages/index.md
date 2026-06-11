@@ -20,6 +20,14 @@ person_schema: true
     </div>
   </header>
 
+<p class="profile-links">
+  <a href="{{ '/vita-activa/' | relative_url }}">CV</a> ·
+  <a href="{{ '/vita-activa/#articles' | relative_url }}">Publications</a> ·
+  <a href="https://scholar.google.com/citations?user=a-3uzfgAAAAJ&hl=en" rel="me noopener noreferrer">Google Scholar</a> ·
+  <a href="https://orcid.org/0009-0008-5860-1948" rel="me noopener noreferrer">ORCID</a> ·
+  <a href="mailto:jpereztorrents+github@gmail.com">Email</a>
+</p>
+
   <nav class="toc" aria-label="Vita contemplativa sections">
     <p class="toc-title">Vitae</p>
     <ol class="toc-pages">

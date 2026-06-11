@@ -4,7 +4,7 @@ Static academic website built with Jekyll and compatible with GitHub Pages.
 
 ## Structure
 
-- `_pages/` : main pages (`/`, `/publications/`, `/cv/`, `/talks/`, `/essays/`, `/posts/`, `/contact/`).
+- `_pages/` : main pages (`/`, `/vita-activa/`).
 - `_data/publications.yml` : sdata source for publications
 - `_publications/` : individual publication pages (Jekyll collection)
 - `_layouts/` : templates (`default`, `publication`, `post`).

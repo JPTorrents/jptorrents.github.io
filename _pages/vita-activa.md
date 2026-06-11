@@ -2,7 +2,7 @@
 layout: default
 title: Vita activa
 permalink: /vita-activa/
-description: "Joel Perez-Torrents is organization scholar studying collective inquiry, expertise, artificial intelligence, and sociotechnical systems in healthcare organizations."
+description: "Joel Perez-Torrents is an organization scholar studying collective inquiry, expertise, artificial intelligence, and sociotechnical systems in healthcare organizations."
 keywords:
   - vita
   - curriculum vitae

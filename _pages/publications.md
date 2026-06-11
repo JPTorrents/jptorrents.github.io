@@ -3,10 +3,7 @@ layout: default
 title: Publications
 permalink: /publications/
 description: "Publications with direct links to articles."
-keywords:
-  - publications
-  - papers
-  - articles
+robots: noindex, follow
 ---
 
 <p class="archive-note">This is an archival page. The current site architecture is centered on <a href="{{ '/' | relative_url }}">Vita contemplativa</a> and <a href="{{ '/vita-activa/' | relative_url }}">Vita activa</a>; this material has been migrated to <a href="{{ '/vita-activa/#articles' | relative_url }}">the relevant Vita activa section</a>.</p>

@@ -9,6 +9,8 @@ keywords:
   - articles
 ---
 
+<p class="archive-note">This is an archival page. The current site architecture is centered on <a href="{{ '/vita-contemplativa/' | relative_url }}">Vita contemplativa</a> and <a href="{{ '/vita-activa/' | relative_url }}">Vita activa</a>; this material has been migrated to <a href="{{ '/vita-activa/#articles' | relative_url }}">the relevant Vita activa section</a>.</p>
+
 # Publications
 
 {% assign publications = site.data.publications | sort: "year" | reverse %}
@@ -16,7 +18,8 @@ keywords:
 {% for pub in publications %}
   {% assign link_target = nil %}
   {% if pub.doi and pub.doi != "" %}
-    {% assign link_target = "https://doi.org/" | append: pub.doi %}
+    {% assign doi_prefix = pub.doi | slice: 0, 4 %}
+    {% if doi_prefix == "http" %}{% assign link_target = pub.doi %}{% else %}{% assign link_target = "https://doi.org/" | append: pub.doi %}{% endif %}
   {% elsif pub.url and pub.url != "" %}
     {% assign link_target = pub.url %}
   {% endif %}

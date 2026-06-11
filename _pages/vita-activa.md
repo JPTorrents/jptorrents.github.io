@@ -53,6 +53,10 @@ person_schema: true
           <p>Postdoctoral Researcher — Desautels Faculty of Management, McGill University — Montréal, Canada.</p>
           <p>Fellow — Centre de Recherche en Gestion (i3–CNRS), Institut Polytechnique de Paris, France.</p>
           <p>Contact: jpereztorrents+github (at) gmail.com.</p>
+          <p class="profile-links">
+            <a href="{{ '/assets/files/joel-perez-torrents-cv.pdf' | relative_url }}">Download CV</a> ·
+            Last updated: coming soon!
+          </p>
           <h3>Teaching</h3>
           <ul>
             <li><strong>École nationale des ponts et chaussées, Champs-sur-Marne (France)</strong> — Teaching Assistant (4 months, 2023–2024).</li>

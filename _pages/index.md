@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Vita contemplativa
-permalink: /vita-contemplativa/
+permalink: /
 description: "Joel Perez-Torrents is an organization scholar studying collective inquiry, expertise, artificial intelligence, and sociotechnical systems in healthcare organizations"
 keywords:
   - collective inquiry

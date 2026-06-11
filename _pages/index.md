@@ -22,7 +22,7 @@ person_schema: true
 
 <p class="profile-links">
   <a href="{{ '/vita-activa/' | relative_url }}">CV</a> ·
-  <a href="{{ '/vita-activa/#articles' | relative_url }}">Publications</a> ·
+  <a href="{{ '/vita-activa/#publications' | relative_url }}">Publications</a> ·
   <a href="https://scholar.google.com/citations?user=a-3uzfgAAAAJ&hl=en" rel="me noopener noreferrer">Google Scholar</a> ·
   <a href="https://orcid.org/0009-0008-5860-1948" rel="me noopener noreferrer">ORCID</a> ·
   <a href="mailto:jpereztorrents+github@gmail.com">Email</a>
@@ -95,7 +95,7 @@ person_schema: true
       {% for slug in key_slugs %}
         {% assign pub = site.data.publications | where: "slug", slug | first %}
         {% if pub %}
-          {% assign link_target = '/vita-activa/#article-' | append: pub.slug %}
+          {% assign link_target = '/vita-activa/#publication-' | append: pub.slug %}
           {% if pub.doi and pub.doi != "" %}
             {% assign doi_prefix = pub.doi | slice: 0, 4 %}
             {% if doi_prefix == "http" %}{% assign link_target = pub.doi %}{% else %}{% assign link_target = "https://doi.org/" | append: pub.doi %}{% endif %}

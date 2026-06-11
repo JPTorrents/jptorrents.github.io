@@ -27,11 +27,11 @@ person_schema: true
   <ol>
     <li><a href="#bio">Bio</a></li>
     <li><a href="#publications">Publications</a></li>
-    <li><a href="#selected-talks">Selected talks</a></li>
-    <li><a href="#conferences">Conferences</a></li>
-    <li><a href="#workshops">Workshops</a></li>
-    <li><a href="#essays">Essays</a></li>
-    <li><a href="#teaching">Teaching</a></li>
+    <li><a href="#selected-talks">Selected talks (9)</a></li>
+    <li><a href="#conferences">Conferences (8)</a></li>
+    <li><a href="#workshops">Workshops (5)</a></li>
+    <li><a href="#essays">Essays (6)</a></li>
+    <li><a href="#teaching">Teaching (5)</a></li>
   </ol>
 </nav>
 

@@ -1,4 +1,24 @@
 (function () {
+  function buildTocFromHeadings() {
+    var targetList = document.querySelector('.toc-group.is-current [data-toc-auto]');
+    var body = document.querySelector('.document-body');
+    if (!targetList || !body) return;
+
+    targetList.innerHTML = '';
+
+    Array.prototype.slice.call(body.querySelectorAll(':scope > section[id]')).forEach(function (section) {
+      var heading = section.querySelector('h2');
+      if (!heading) return;
+
+      var item = document.createElement('li');
+      var link = document.createElement('a');
+      link.href = '#' + section.id;
+      link.textContent = heading.textContent.replace(/\s*\([^)]*\)\s*$/, '').trim();
+      item.appendChild(link);
+      targetList.appendChild(item);
+    });
+  }
+
   function openDetailsForHash() {
     if (!window.location.hash) return;
     var target = document.getElementById(window.location.hash.slice(1));
@@ -50,6 +70,7 @@
   window.addEventListener('hashchange', openDetailsForHash);
 
   document.addEventListener('DOMContentLoaded', function () {
+    buildTocFromHeadings();
     openDetailsForHash();
     initScrollSpy();
 

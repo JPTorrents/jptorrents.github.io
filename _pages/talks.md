@@ -3,9 +3,7 @@ layout: default
 title: Talks
 permalink: /talks/
 description: Talks and invited presentations by Joël Perez-Torrents.
-keywords:
-  - talks
-  - presentations
+robots: noindex, follow
 ---
 
 <p class="archive-note">This is an archival page. The current site architecture is centered on <a href="{{ '/' | relative_url }}">Vita contemplativa</a> and <a href="{{ '/vita-activa/' | relative_url }}">Vita activa</a>; this material has been migrated to <a href="{{ '/vita-activa/#selected-talks' | relative_url }}">the relevant Vita activa section</a>.</p>

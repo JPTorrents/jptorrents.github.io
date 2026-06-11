@@ -10,6 +10,8 @@ keywords:
 person_schema: true
 ---
 
+<p class="archive-note">This is an archival page. The current site architecture is centered on <a href="{{ '/vita-contemplativa/' | relative_url }}">Vita contemplativa</a> and <a href="{{ '/vita-activa/' | relative_url }}">Vita activa</a>; this material has been migrated to <a href="{{ '/vita-activa/#bio' | relative_url }}">the relevant Vita activa section</a>.</p>
+
 # Vita
 
 

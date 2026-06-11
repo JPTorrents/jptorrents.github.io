@@ -25,6 +25,12 @@
     {% include scholar_citation_meta.html %}
     {% include jsonld.html %}
     {% include person_schema.html %}
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    {% if site.author.same_as contains 'https://orcid.org/0009-0008-5860-1948' %}
+      <link rel="me" href="https://orcid.org/0009-0008-5860-1948" />
+    {% endif %}
     <link rel="stylesheet" href="{{ '/assets/styles/main.css' | relative_url }}" />
   </head>
   <body>
@@ -39,9 +45,18 @@
       {{ content }}
     </main>
     <footer class="site-footer">
-      <div class="container">
-        <p>© {{ 'now' | date: '%Y' }} {{ site.author.name }}.</p>
+      <div class="container footer-inner">
+        <p>© 2026 {{ site.author.name }}</p>
+        <nav aria-label="Academic profiles">
+          <ul class="footer-links">
+            <li><a href="https://scholar.google.com/citations?user=a-3uzfgAAAAJ&hl=en" rel="me noopener noreferrer">Google Scholar</a></li>
+            <li><a href="https://orcid.org/0009-0008-5860-1948" rel="me noopener noreferrer">ORCID</a></li>
+            <li><a href="#todo-linkedin-url">LinkedIn</a></li><!-- TODO: replace with confirmed LinkedIn URL. -->
+            <li><a href="https://github.com/JPTorrents" rel="me noopener noreferrer">GitHub</a></li>
+          </ul>
+        </nav>
       </div>
     </footer>
+    <script src="{{ '/assets/js/site.js' | relative_url }}" defer></script>
   </body>
 </html>

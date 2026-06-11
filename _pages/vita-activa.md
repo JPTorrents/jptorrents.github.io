@@ -16,24 +16,25 @@ person_schema: true
     <h1>Vita activa</h1>
     <p class="lede">Public academic CV, publications, talks, essays, and biographical materials.</p>
   </header>
-<nav class="toc" aria-label="Vita activa sections">
-  <p class="toc-title">Vitae</p>
-  <ol class="toc-pages">
-    <li><a href="{{ '/' | relative_url }}">Vita contemplativa</a></li>
-    <li><a href="{{ '/vita-activa/' | relative_url }}" aria-current="page">Vita activa</a></li>
-  </ol>
+  
+  <nav class="toc" aria-label="Vita activa sections">
+    <div class="toc-group is-current">
+      <a class="toc-heading" href="{{ '/vita-activa/' | relative_url }}" aria-current="page">Vita activa</a>
+      <ul>
+        <li><a href="#bio">Bio</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#selected-talks">Selected talks</a></li>
+        <li><a href="#conferences">Conferences</a></li>
+        <li><a href="#workshops">Workshops</a></li>
+        <li><a href="#essays">Essays</a></li>
+        <li><a href="#teaching">Teaching</a></li>
+      </ul>
+    </div>
+    <div class="toc-group">
+      <a class="toc-heading" href="{{ '/' | relative_url }}">Vita contemplativa</a>
+    </div>
+  </nav>
 
-  <p class="toc-title">Contents</p>
-  <ol>
-    <li><a href="#bio">Bio</a></li>
-    <li><a href="#publications">Publications</a></li>
-    <li><a href="#selected-talks">Selected talks (9)</a></li>
-    <li><a href="#conferences">Conferences (8)</a></li>
-    <li><a href="#workshops">Workshops (5)</a></li>
-    <li><a href="#essays">Essays (6)</a></li>
-    <li><a href="#teaching">Teaching (5)</a></li>
-  </ol>
-</nav>
 
   <div class="document-body">
     <section id="bio" aria-labelledby="bio-heading">

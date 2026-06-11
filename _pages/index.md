@@ -21,12 +21,17 @@ person_schema: true
   </header>
 
   <nav class="toc" aria-label="Vita contemplativa sections">
+    <p class="toc-title">Vitae</p>
+    <ol class="toc-pages">
+      <li><a href="{{ '/' | relative_url }}" aria-current="page">Vita contemplativa</a></li>
+      <li><a href="{{ '/vita-activa/' | relative_url }}">Vita activa</a></li>
+    </ol>
     <p class="toc-title">Contents</p>
-    <ol>
-      <li><a href="#research-program">Research program</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#key-articles">Key articles</a></li>
-      <li><a href="#key-essays">Key essays</a></li>
+      <ol>
+        <li><a href="#research-program">Research program</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#key-articles">Key articles</a></li>
+        <li><a href="#key-essays">Key essays</a></li>
     </ol>
   </nav>
 

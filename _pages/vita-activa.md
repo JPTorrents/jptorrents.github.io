@@ -31,7 +31,7 @@ person_schema: true
     <li><a href="#conferences">Conferences</a></li>
     <li><a href="#workshops">Workshops</a></li>
     <li><a href="#essays">Essays</a></li>
-    <li><a href="#teachings">Teachings</a></li>
+    <li><a href="#teaching">Teaching</a></li>
   </ol>
 </nav>
 
@@ -186,10 +186,10 @@ person_schema: true
         <details id="essay-from-decision-support-to-inquiry-support"><summary>From Decision Support to Inquiry Support</summary><div class="details-body"><p class="meta">Forthcoming</p><p>Essay on designing AI around inquiry support rather than decision support alone.</p></div></details>
       </div>
     </section>
-    <section id="teachings" aria-labelledby="teachings-heading">
-      <h2 id="teachings-heading">Teachings</h2>
+    <section id="teaching" aria-labelledby="teaching-heading">
+      <h2 id="teaching-heading">Teaching</h2>
       <details>
-        <summary>Teachings</summary>
+        <summary>Teaching</summary>
         <div class="details-body">
           <ul>
             <li><strong>École nationale des ponts et chaussées, Champs-sur-Marne</strong> — Teaching Assistant, 2023–2024.</li>

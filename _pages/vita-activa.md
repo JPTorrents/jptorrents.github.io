@@ -41,13 +41,9 @@ person_schema: true
       <h2 id="bio-heading">Bio</h2>
       <p>Joel Perez-Torrents is a postdoctoral researcher at the Desautels Faculty of Management, McGill University, and a fellow at the Centre de Recherche en Gestion, Institut Polytechnique de Paris. He studies how organizations produce knowledge, distribute judgment, and act under uncertainty, with a focus on healthcare, expertise, and artificial intelligence.</p>
       <details id="bio-medium">
-        <summary>Medium bio</summary>
-        <div class="details-body">
-          <p>I study how Artificial Intelligence reconfigures expert work and knowledge production in high-stakes and expert organizational settings—especially healthcare. Trained at École polytechnique (engineering) and holding a PhD in Management (2024), I combine pragmatist approaches, Science &amp; Technology Studies, and organization theory to understand AI use in the production of knowledge. I also contribute to the creation of McGill’s Institute for Health Transformation, at the intersection of management, medicine, and public policy.</p>
-        </div>
       </details>
-      <details id="bio-long">
-        <summary>Long bio and CV notes</summary>
+      <details id="CV notes">
+        <summary>CV notes</summary>
         <div class="details-body">
           <h3>Research profile</h3>
           <p>Organizational Theory.</p>

@@ -105,7 +105,10 @@ person_schema: true
             {% assign link_target = pub.url %}
           {% endif %}
           <details id="publication-{{ pub.slug }}">
-            <summary>{{ pub.title }}{{ pub.year }}{{ pub.venue }}</summary>
+            <summary>
+              {{ pub.title }}
+              <span class="summary-meta"> — {{ pub.year }} · {{ pub.venue }}</span>
+            </summary>
             <div class="details-body">
               <dl class="entry-grid">
                 <dt>Metadata</dt>

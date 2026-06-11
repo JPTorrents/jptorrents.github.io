@@ -23,15 +23,7 @@ person_schema: true
     </div>
     <div class="toc-group is-current">
       <a class="toc-heading" href="{{ '/vita-activa/' | relative_url }}" aria-current="page">Vita activa</a>
-      <ul>
-        <li><a href="#bio">Bio</a></li>
-        <li><a href="#publications">Publications</a></li>
-        <li><a href="#selected-talks">Selected talks</a></li>
-        <li><a href="#conferences">Conferences</a></li>
-        <li><a href="#workshops">Workshops</a></li>
-        <li><a href="#essays">Essays</a></li>
-        <li><a href="#teaching">Teaching</a></li>
-      </ul>
+      <ul data-toc-auto></ul>
     </div>
   </nav>
 

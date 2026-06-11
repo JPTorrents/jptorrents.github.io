@@ -31,12 +31,7 @@ person_schema: true
   <nav class="toc" aria-label="Vita contemplativa sections">
     <div class="toc-group is-current">
       <a class="toc-heading" href="{{ '/' | relative_url }}" aria-current="page">Vita contemplativa</a>
-      <ul>
-        <li><a href="#research-program">Research program</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#key-articles">Key articles</a></li>
-        <li><a href="#key-essays">Key essays</a></li>
-      </ul>
+      <ul data-toc-auto></ul>
     </div>
     <div class="toc-group">
       <a class="toc-heading" href="{{ '/vita-activa/' | relative_url }}">Vita activa</a>

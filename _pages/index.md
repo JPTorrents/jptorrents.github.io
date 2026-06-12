@@ -46,44 +46,34 @@ person_schema: true
       <p>Empirically, my work focuses primarily on healthcare and technoscientific settings, where organizations must act despite persistent uncertainty and where decisions increasingly depend on artificial intelligence, data infrastructures, evaluative systems, and professional expertise. I examine how evidence is produced and contested, how judgment is shared across human and technological actors, and how organizations sustain action when situations remain open, evolving, and only partially controllable.</p>
       <p>My broader contribution is to develop a processual theory of organizing as collective inquiry, with particular attention to the socio-technical conditions under which organizations produce knowledge and transform the realities they seek to manage.</p>
     </section>
-    <section id="projects" aria-labelledby="projects-heading">
-      <h2 id="projects-heading">Projects</h2>
-      <article class="project" id="project-collective-inquiry-in-healthcare">
-        <h3>Collective Inquiry in Healthcare</h3>
-        <p><span class="label">Question</span> How do healthcare organizations define problems, produce evidence, and coordinate action when care situations remain uncertain?</p>
-        <p>This project develops healthcare as a privileged setting for studying organizing as practical inquiry across professional, technological, and institutional arrangements.</p>
-        <p><span class="label">Related articles</span> <a href="{{ '/vita-activa/#article-la-gestion-de-lactivite-de-prise-en-charge-des-patients-peut-elle-devenir-visible-2024' | relative_url }}">La gestion de l’activité de prise en charge des patients peut-elle devenir visible ?</a>; <a href="{{ '/vita-activa/#article-usages-des-outils-dintelligence-artificielle-et-capacite-dagir-des-radiologues-2023' | relative_url }}">Comment les usages des outils d’Intelligence Artificielle augmentent-ils la capacité d’agir des radiologues ?</a></p>
-        <p><span class="label">Related essays</span> <a href="#essay-healthcare-as-an-inquiry-system">Healthcare as an Inquiry System</a> (forthcoming).</p>
-      </article>
-      <article class="project" id="project-human-ai-inquiry">
-        <h3>Human–AI Inquiry</h3>
-        <p><span class="label">Question</span> How is judgment redistributed when human experts inquire with algorithmic systems rather than simply use them as tools?</p>
-        <p>This project studies AI as part of situated knowledge production, including the epistemic risks and possibilities created by large language models and other algorithmic technologies.</p>
-        <p><span class="label">Related articles</span> <a href="{{ '/vita-activa/#article-a-time-for-monsters-organizational-knowing-after-llms-2026' | relative_url }}">A Time For Monsters: Organizational Knowing After LLMs</a>; <a href="{{ '/vita-activa/#article-gerer-la-collaboration-entre-lexpert-metier-et-lintelligence-artificielle-2024' | relative_url }}">Gérer la collaboration entre l’expert métier et l’Intelligence Artificielle</a>.</p>
-        <p><span class="label">Related essays</span> <a href="#essay-ai-in-expert-work">AI in Expert Work</a> and <a href="#essay-from-decision-support-to-inquiry-support">From Decision Support to Inquiry Support</a> (forthcoming).</p>
-      </article>
-      <article class="project" id="project-evaluation-and-health-technology-assessment">
-        <h3>Evaluation and Health Technology Assessment</h3>
-        <p><span class="label">Question</span> How do evaluative systems make technologies accountable while shaping the problems those technologies are meant to address?</p>
-        <p>This project treats evaluation and health technology assessment as organized inquiry: a collective process of producing evidence, comparing interventions, and making action possible under uncertainty.</p>
-        <p><span class="label">Related articles</span> <a href="{{ '/vita-activa/#article-remote-monitoring-system-for-older-adults-at-risk-2025' | relative_url }}">Remote Monitoring System for Older Adults at Risk for Complications</a>; <a href="{{ '/vita-activa/#article-nurse-navigators-digital-remote-monitoring-cancer-care-2025' | relative_url }}">The Effect of Nurse Navigators in Digital Remote Monitoring in Cancer Care</a>.</p>
-        <p><span class="label">Related essays</span> <a href="#essay-hta-as-organized-inquiry">HTA as Organized Inquiry</a> (forthcoming).</p>
-      </article>
-      <article class="project" id="project-organizations-of-cultivation">
-        <h3>Organizations of Cultivation</h3>
-        <p><span class="label">Question</span> What organizational forms sustain gradual development, learning, and care rather than discrete optimization alone?</p>
-        <p>This project is a conceptual line of work on cultivation as an organizational logic for settings where value emerges through attention, maintenance, formation, and long-run adjustment.</p>
-        <p><span class="label">Related articles</span> <!-- TODO: connect existing or future publications when available. -->Forthcoming.</p>
-        <p><span class="label">Related essays</span> <a href="#essay-organizations-of-cultivation">Organizations of Cultivation</a> (forthcoming).</p>
-      </article>
-      <article class="project" id="project-health-system-decision-infrastructures">
-        <h3>Health-System Decision Infrastructures</h3>
-        <p><span class="label">Question</span> How do data infrastructures, professional roles, and decision routines configure action across health systems?</p>
-        <p>This project examines decision infrastructures as socio-technical arrangements that distribute attention, evidence, authority, and responsibility across organizations.</p>
-        <p><span class="label">Related articles</span> <a href="{{ '/vita-activa/#article-nurse-navigators-digital-remote-monitoring-cancer-care-2025' | relative_url }}">The Effect of Nurse Navigators in Digital Remote Monitoring in Cancer Care</a>; <a href="{{ '/vita-activa/#article-remote-monitoring-system-for-older-adults-at-risk-2025' | relative_url }}">Remote Monitoring System for Older Adults at Risk for Complications</a>.</p>
-        <p><span class="label">Related essays</span> <!-- TODO: add essay link when drafted. -->Forthcoming.</p>
-      </article>
-    </section>
+<section id="projects" aria-labelledby="projects-heading">
+  <h2 id="project-knowing-practices-in-the-ai-era">1. Knowing Practices in the AI Era</h2>
+  <article class="project" aria-labelledby="project-knowing-practices-in-the-ai-era">
+    <p><span class="label">Central question</span> How do organizations produce, distribute, and transform knowledge in environments increasingly shaped by algorithms, data, and artificial intelligence?</p>
+    <p><span class="label">Objects</span> Human–AI collaboration; professional expertise; judgement; medical AI; knowledge production; epistemic practices; responsibility and accountability.</p>
+    <p><span class="label">Field sites</span> Radiology; oncology; clinical AI; LLM adoption and uses; researchers using AI.</p>
+    <p><span class="label">Related publications</span> <a href="{{ '/vita-activa/#article-a-time-for-monsters-organizational-knowing-after-llms-2026' | relative_url }}">A Time For Monsters: Organizational Knowing After LLMs</a>; <a href="{{ '/vita-activa/#article-gerer-la-collaboration-entre-lexpert-metier-et-lintelligence-artificielle-2024' | relative_url }}">Gérer la collaboration entre l’expert métier et l’Intelligence Artificielle</a>; <a href="{{ '/vita-activa/#article-usages-des-outils-dintelligence-artificielle-et-capacite-dagir-des-radiologues-2023' | relative_url }}">Comment les usages des outils d’Intelligence Artificielle augmentent-ils la capacité d’agir des radiologues ?</a>.</p>
+    <p><span class="label">Related essays</span> <a href="#essay-ai-in-expert-work">AI in Expert Work</a>; <a href="#essay-from-decision-support-to-inquiry-support">From Decision Support to Inquiry Support</a> (forthcoming).</p>
+  </article>
+
+  <h2 id="project-evalu-ating-devices">2. (E)valu-ating Devices</h2>
+  <article class="project" aria-labelledby="project-evalu-ating-devices">
+    <p><span class="label">Central question</span> How do organizations evaluate, compare, and legitimize knowledge claims, technologies, and courses of action under uncertainty?</p>
+    <p><span class="label">Objects</span> HTA agencies; recommendations; evidence-based medicine; metrics, indicators and rankings; evaluation devices; legitimacy production.</p>
+    <p><span class="label">Field sites</span> INESSS; HAS; health technologies.</p>
+    <p><span class="label">Related publications</span> <a href="{{ '/vita-activa/#article-remote-monitoring-system-for-older-adults-at-risk-2025' | relative_url }}">Remote Monitoring System for Older Adults at Risk for Complications</a>; <a href="{{ '/vita-activa/#article-nurse-navigators-digital-remote-monitoring-cancer-care-2025' | relative_url }}">The Effect of Nurse Navigators in Digital Remote Monitoring in Cancer Care</a>.</p>
+    <p><span class="label">Related essays</span> <a href="#essay-hta-as-organized-inquiry">HTA as Organized Inquiry</a> (forthcoming).</p>
+  </article>
+
+  <h2 id="project-infrastructures-of-caring">3. Infrastructures of Caring</h2>
+  <article class="project" aria-labelledby="project-infrastructures-of-caring">
+    <p><span class="label">Central question</span> How do organizations sustain action and collective inquiry when the realities they engage with remain evolving, singular, and only partially controllable?</p>
+    <p><span class="label">Objects</span> Care pathway; trajectories; coordination; care infrastructures; maintenance.</p>
+    <p><span class="label">Field sites</span> Health tech startups; INESSS; health observatories.</p>
+    <p><span class="label">Related publications</span> <a href="{{ '/vita-activa/#article-la-gestion-de-lactivite-de-prise-en-charge-des-patients-peut-elle-devenir-visible-2024' | relative_url }}">La gestion de l’activité de prise en charge des patients peut-elle devenir visible ?</a>; <a href="{{ '/vita-activa/#article-nurse-navigators-digital-remote-monitoring-cancer-care-2025' | relative_url }}">The Effect of Nurse Navigators in Digital Remote Monitoring in Cancer Care</a>; <a href="{{ '/vita-activa/#article-remote-monitoring-system-for-older-adults-at-risk-2025' | relative_url }}">Remote Monitoring System for Older Adults at Risk for Complications</a>.</p>
+    <p><span class="label">Related essays</span> <a href="#essay-healthcare-as-an-inquiry-system">Healthcare as an Inquiry System</a>; <a href="#essay-organizations-of-cultivation">Organizations of Cultivation</a> (forthcoming).</p>
+  </article>
+</section>
     <section id="key-articles" aria-labelledby="key-articles-heading">
       <h2 id="key-articles-heading">Key articles</h2>
       {% assign key_slugs = "a-time-for-monsters-organizational-knowing-after-llms-2026,gerer-la-collaboration-entre-lexpert-metier-et-lintelligence-artificielle-2024,usages-des-outils-dintelligence-artificielle-et-capacite-dagir-des-radiologues-2023,la-gestion-de-lactivite-de-prise-en-charge-des-patients-peut-elle-devenir-visible-2024,nurse-navigators-digital-remote-monitoring-cancer-care-2025" | split: "," %}
